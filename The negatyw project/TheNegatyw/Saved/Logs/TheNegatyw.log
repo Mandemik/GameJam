@@ -993,3 +993,9 @@ LogInit: Object subsystem initialized
 [2018.11.09-22.25.24:886][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.11.09-22.25.26:882][786]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
 [2018.11.09-22.26.37:130][156]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-22.32.15:707][307]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-22.32.20:742][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.32.20:824][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pivnica" FILE="../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Content/Pivnica.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.09-22.32.20:879][896]LogSavePackage: Moving '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Saved/PivnicaE0059BE94B011C1D0958738670397791.tmp' to '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Content/Pivnica.umap'
+[2018.11.09-22.32.20:888][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pivnica_BuiltData" FILE="../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Content/Pivnica_BuiltData.uasset" SILENT=true
+[2018.11.09-22.32.20:898][896]LogSavePackage: Moving '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Pivnica_BuiltDataCD6653A94B98E05EB3B0B6877AF97936.tmp' to '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Content/Pivnica_BuiltData.uasset'
