@@ -1,0 +1,19 @@
+UnrealBuildTool.GuardedMain: Command line: "D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe"  -projectfiles -project="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" -game -rocket -progress -log=C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw/Saved/Logs/UnrealVersionSelector-2018.11.09-23.21.44.log
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 0%
+ProgressWriter.LogMessage: WARNING: Exception while generating include data for UE4Editor: Couldn't find target rules file for target 'negatyw' in rules assembly 'UE4Rules, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+ProgressWriter.LogMessage:          Location: D:\UE_4.20\Engine\Intermediate\Build\BuildRules\UE4Rules.dll
+ProgressWriter.LogMessage:          Target rules found:
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 50%
+ProgressWriter.LogMessage: WARNING: Exception while generating include data for TheNegatywEditor: Couldn't find target rules file for target 'negatyw' in rules assembly 'UE4Rules, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+ProgressWriter.LogMessage:          Location: D:\UE_4.20\Engine\Intermediate\Build\BuildRules\UE4Rules.dll
+ProgressWriter.LogMessage:          Target rules found:
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 100%
+ProgressWriter.Write: @progress 'Writing project files...' 0%
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 8.1 SDK at C:\Program Files (x86)\Windows Kits\8.1
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.10150.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.10240.0 at C:\Program Files (x86)\Windows Kits\10
+ProgressWriter.Write: @progress 'Writing project files...' 33%
+ProgressWriter.Write: @progress 'Writing project files...' 67%
+ProgressWriter.Write: @progress 'Writing project files...' 100%

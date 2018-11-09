@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\TheNegatyw.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{A677E379-2CDA-412F-A00F-A95F61BC680C}</UniqueIdentifier>
+			<UniqueIdentifier>{06363E52-6114-48F5-80F6-C0D02A627E34}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TheNegatyw.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{18C1BA4F-FD76-44FA-85F0-FE2CFA1B3E1C}</UniqueIdentifier>
+			<UniqueIdentifier>{F3E5AE53-D1A7-4B39-93D9-3CC9B2042328}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,8 +31,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TheNegatyw">
-			<UniqueIdentifier>{79D1CFD0-4F3A-4732-8470-8DA04A39D346}</UniqueIdentifier>
+			<UniqueIdentifier>{B5B2332A-ADE2-40E1-89A4-AD40E30396F2}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\TheNegatyw\LightSwitch.cpp">
+			<Filter>Source\TheNegatyw</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TheNegatyw\LightSwitch.h">
+			<Filter>Source\TheNegatyw</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\TheNegatyw\TheNegatyw.Build.cs">
 			<Filter>Source\TheNegatyw</Filter>
 		</None >
