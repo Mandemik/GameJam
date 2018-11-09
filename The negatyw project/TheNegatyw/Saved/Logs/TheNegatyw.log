@@ -614,3 +614,382 @@ LogInit: Object subsystem initialized
 [2018.11.09-21.40.38:709][ 88]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2018.11.09-21.40.38:852][ 88]LogSavePackage: Moving '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMapD2530B534674DD6DB65689AE2F9D8551.tmp' to '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
 [2018.11.09-21.40.39:028][ 88]LogSavePackage: Moving '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_BuiltData35504A7C434298A837219D84456229E6.tmp' to '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.09-21.47.13:747][995]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.09-21.47.13:749][995]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.09-21.47.44:710][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.09-21.47.53:105][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.48.11:276][802]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.09-21.48.13:741][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.09-21.48.15:127][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2018.11.09-21.48.16:203][377]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2018.11.09-21.48.17:244][491]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.17:724][547]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.18:327][615]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.18:970][690]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.21:101][690]LogSlate: Window 'New Level' being destroyed
+[2018.11.09-21.48.21:106][690]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.09-21.48.21:110][690]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.21:133][690]LightingResults: New page: Lighting Build
+[2018.11.09-21.48.21:133][690]LoadErrors: New page: Loading map: Template_Default.umap
+[2018.11.09-21.48.21:136][690]MapCheck: New page: Map Check
+[2018.11.09-21.48.21:136][690]LightingResults: New page: Lighting Build
+[2018.11.09-21.48.21:177][690]LogAIModule: Creating AISystem for world Untitled_1
+[2018.11.09-21.48.21:184][690]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.09-21.48.21:205][690]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.09-21.48.21:264][690]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58,602ms to complete.
+[2018.11.09-21.48.21:264][690]LogFileHelpers: Loading map 'Template_Default' took 0.160
+[2018.11.09-21.48.24:059][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.24:737][101]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.25:640][101]LogSlate: Window 'New Level' being destroyed
+[2018.11.09-21.48.25:644][101]LightingResults: New page: Lighting Build
+[2018.11.09-21.48.25:644][101]MapCheck: New page: Map Check
+[2018.11.09-21.48.25:644][101]LightingResults: New page: Lighting Build
+[2018.11.09-21.48.25:664][101]LogAIModule: Creating AISystem for world Untitled
+[2018.11.09-21.48.25:667][101]LoadErrors: New page: New Map
+[2018.11.09-21.48.28:100][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.28:869][484]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.29:761][484]LogSlate: Window 'New Level' being destroyed
+[2018.11.09-21.48.29:765][484]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.09-21.48.29:769][484]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.29:782][484]LightingResults: New page: Lighting Build
+[2018.11.09-21.48.29:783][484]LoadErrors: New page: Loading map: Template_Default.umap
+[2018.11.09-21.48.29:783][484]MapCheck: New page: Map Check
+[2018.11.09-21.48.29:783][484]LightingResults: New page: Lighting Build
+[2018.11.09-21.48.29:817][484]LogAIModule: Creating AISystem for world Untitled_3
+[2018.11.09-21.48.29:823][484]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.09-21.48.29:844][484]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.09-21.48.29:902][484]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58,402ms to complete.
+[2018.11.09-21.48.29:902][484]LogFileHelpers: Loading map 'Template_Default' took 0.138
+[2018.11.09-21.48.33:647][931]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.11.09-21.48.35:816][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.09-21.48.37:216][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.09-21.48.37:703][365]Cmd: DELETE
+[2018.11.09-21.48.37:703][365]Cmd: ACTOR DELETE
+[2018.11.09-21.48.37:707][365]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.09-21.48.37:723][365]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.11.09-21.48.38:830][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.48.39:400][542]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.11.09-21.48.45:822][287]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.51:223][935]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.48.59:054][874]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-21.49.02:400][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.49.04:556][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.11.09-21.49.22:916][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.49.28:031][334]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.09-21.49.43:025][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.50.46:913][623]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2018.11.09-21.50.54:512][409]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2018.11.09-21.50.55:873][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.50.57:874][803]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.09-21.50.58:901][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.50.58:984][935]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-21.50.58:992][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-21.50.59:003][935]PIE: New page: PIE session: Untitled_3 (9 lis 2018, 23:50:59)
+[2018.11.09-21.50.59:003][935]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2018.11.09-21.50.59:006][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002756s)
+[2018.11.09-21.50.59:007][935]LogAIModule: Creating AISystem for world Untitled_3
+[2018.11.09-21.50.59:007][935]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2018.11.09-21.50.59:007][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled_3 to /Temp/UEDPIE_0_Untitled_3.Untitled_3 (0.003616s)
+[2018.11.09-21.50.59:029][935]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-21.50.59:052][935]LogInit: FAudioDevice initialized.
+[2018.11.09-21.50.59:095][935]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.09-21.50.59:097][935]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled_3 up for play (max tick rate 0) at 2018.11.09-22.50.59
+[2018.11.09-21.50.59:097][935]LogWorld: Bringing up level for play took: 0.000644
+[2018.11.09-21.50.59:114][935]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.11.09-21.50.59:116][935]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_3 0,237
+[2018.11.09-21.51.08:486][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.51.08:513][ 56]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-21.51.08:532][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.51.08:590][ 60]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.11.09-21.51.09:906][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.51.10:004][224]LogRenderer: Reallocating scene render targets to support 948x640 Format 10 NumSamples 1 (Frame:17964).
+[2018.11.09-21.51.10:041][225]LogRenderer: Reallocating scene render targets to support 956x640 Format 10 NumSamples 1 (Frame:17966).
+[2018.11.09-21.51.10:078][226]LogRenderer: Reallocating scene render targets to support 968x640 Format 10 NumSamples 1 (Frame:17968).
+[2018.11.09-21.51.10:123][227]LogRenderer: Reallocating scene render targets to support 988x640 Format 10 NumSamples 1 (Frame:17970).
+[2018.11.09-21.51.10:160][228]LogRenderer: Reallocating scene render targets to support 1012x640 Format 10 NumSamples 1 (Frame:17972).
+[2018.11.09-21.51.10:209][229]LogRenderer: Reallocating scene render targets to support 1028x640 Format 10 NumSamples 1 (Frame:17974).
+[2018.11.09-21.51.10:248][230]LogRenderer: Reallocating scene render targets to support 1056x640 Format 10 NumSamples 1 (Frame:17976).
+[2018.11.09-21.51.10:285][231]LogRenderer: Reallocating scene render targets to support 1080x640 Format 10 NumSamples 1 (Frame:17978).
+[2018.11.09-21.51.10:338][232]LogRenderer: Reallocating scene render targets to support 1104x640 Format 10 NumSamples 1 (Frame:17980).
+[2018.11.09-21.51.10:377][233]LogRenderer: Reallocating scene render targets to support 1132x640 Format 10 NumSamples 1 (Frame:17982).
+[2018.11.09-21.51.10:415][234]LogRenderer: Reallocating scene render targets to support 1140x640 Format 10 NumSamples 1 (Frame:17984).
+[2018.11.09-21.51.11:662][360]LogRenderer: Reallocating scene render targets to support 1140x648 Format 10 NumSamples 1 (Frame:18118).
+[2018.11.09-21.51.11:698][361]LogRenderer: Reallocating scene render targets to support 1140x656 Format 10 NumSamples 1 (Frame:18120).
+[2018.11.09-21.51.11:736][362]LogRenderer: Reallocating scene render targets to support 1140x660 Format 10 NumSamples 1 (Frame:18122).
+[2018.11.09-21.51.11:775][363]LogRenderer: Reallocating scene render targets to support 1140x664 Format 10 NumSamples 1 (Frame:18124).
+[2018.11.09-21.51.11:828][364]LogRenderer: Reallocating scene render targets to support 1140x672 Format 10 NumSamples 1 (Frame:18126).
+[2018.11.09-21.51.11:867][365]LogRenderer: Reallocating scene render targets to support 1140x676 Format 10 NumSamples 1 (Frame:18128).
+[2018.11.09-21.51.11:901][366]LogRenderer: Reallocating scene render targets to support 1140x688 Format 10 NumSamples 1 (Frame:18130).
+[2018.11.09-21.51.11:949][367]LogRenderer: Reallocating scene render targets to support 1140x704 Format 10 NumSamples 1 (Frame:18132).
+[2018.11.09-21.51.11:985][368]LogRenderer: Reallocating scene render targets to support 1140x732 Format 10 NumSamples 1 (Frame:18134).
+[2018.11.09-21.51.12:019][369]LogRenderer: Reallocating scene render targets to support 1140x764 Format 10 NumSamples 1 (Frame:18136).
+[2018.11.09-21.51.12:073][370]LogRenderer: Reallocating scene render targets to support 1140x792 Format 10 NumSamples 1 (Frame:18138).
+[2018.11.09-21.51.12:110][371]LogRenderer: Reallocating scene render targets to support 1140x800 Format 10 NumSamples 1 (Frame:18140).
+[2018.11.09-21.51.14:958][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.51.15:124][712]LogRenderer: Reallocating scene render targets to support 1144x800 Format 10 NumSamples 1 (Frame:18521).
+[2018.11.09-21.51.15:160][713]LogRenderer: Reallocating scene render targets to support 1156x800 Format 10 NumSamples 1 (Frame:18523).
+[2018.11.09-21.51.15:195][714]LogRenderer: Reallocating scene render targets to support 1192x800 Format 10 NumSamples 1 (Frame:18525).
+[2018.11.09-21.51.15:232][715]LogRenderer: Reallocating scene render targets to support 1256x800 Format 10 NumSamples 1 (Frame:18527).
+[2018.11.09-21.51.15:279][716]LogRenderer: Reallocating scene render targets to support 1324x800 Format 10 NumSamples 1 (Frame:18529).
+[2018.11.09-21.51.15:317][717]LogRenderer: Reallocating scene render targets to support 1344x800 Format 10 NumSamples 1 (Frame:18531).
+[2018.11.09-21.51.15:399][719]LogRenderer: Reallocating scene render targets to support 1356x800 Format 10 NumSamples 1 (Frame:18535).
+[2018.11.09-21.51.24:775][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.51.46:860][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.51.46:943][352]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-21.51.46:949][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-21.51.46:949][352]PIE: New page: PIE session: Untitled_3 (9 lis 2018, 23:51:46)
+[2018.11.09-21.51.46:949][352]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2018.11.09-21.51.46:953][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003143s)
+[2018.11.09-21.51.46:953][352]LogAIModule: Creating AISystem for world Untitled_3
+[2018.11.09-21.51.46:953][352]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2018.11.09-21.51.46:953][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled_3 to /Temp/UEDPIE_0_Untitled_3.Untitled_3 (0.003843s)
+[2018.11.09-21.51.46:977][352]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-21.51.46:998][352]LogInit: FAudioDevice initialized.
+[2018.11.09-21.51.47:024][352]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.09-21.51.47:025][352]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled_3 up for play (max tick rate 0) at 2018.11.09-22.51.47
+[2018.11.09-21.51.47:025][352]LogWorld: Bringing up level for play took: 0.000685
+[2018.11.09-21.51.47:037][352]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_3 0,159
+[2018.11.09-21.51.54:649][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.51.54:678][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-21.51.54:695][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.51.54:748][268]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.11.09-21.52.34:066][854]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-21.52.37:494][245]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-21.52.40:169][548]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-21.52.46:263][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.52.47:446][370]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.52.48:012][438]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-21.52.51:270][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.52.51:370][816]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-21.52.51:376][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-21.52.51:377][816]PIE: New page: PIE session: Untitled_3 (9 lis 2018, 23:52:51)
+[2018.11.09-21.52.51:377][816]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2018.11.09-21.52.51:382][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005176s)
+[2018.11.09-21.52.51:383][816]LogAIModule: Creating AISystem for world Untitled_3
+[2018.11.09-21.52.51:383][816]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2018.11.09-21.52.51:383][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled_3 to /Temp/UEDPIE_0_Untitled_3.Untitled_3 (0.006150s)
+[2018.11.09-21.52.51:406][816]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-21.52.51:427][816]LogInit: FAudioDevice initialized.
+[2018.11.09-21.52.51:458][816]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.09-21.52.51:459][816]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled_3 up for play (max tick rate 0) at 2018.11.09-22.52.51
+[2018.11.09-21.52.51:459][816]LogWorld: Bringing up level for play took: 0.000559
+[2018.11.09-21.52.51:470][816]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_3 0,59
+[2018.11.09-21.52.53:119][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.52.53:147][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-21.52.53:165][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.52.53:222][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.11.09-21.53.28:252][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.53.31:437][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.53.32:217][933]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.09-21.53.33:680][104]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-21.55.40:149][ 40]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-21.55.45:660][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.56.46:352][512]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-21.57.03:917][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.57.04:000][579]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-21.57.04:007][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-21.57.04:007][579]PIE: New page: PIE session: Untitled_3 (9 lis 2018, 23:57:04)
+[2018.11.09-21.57.04:007][579]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2018.11.09-21.57.04:010][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003151s)
+[2018.11.09-21.57.04:011][579]LogAIModule: Creating AISystem for world Untitled_3
+[2018.11.09-21.57.04:011][579]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2018.11.09-21.57.04:011][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled_3 to /Temp/UEDPIE_0_Untitled_3.Untitled_3 (0.004091s)
+[2018.11.09-21.57.04:036][579]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-21.57.04:058][579]LogInit: FAudioDevice initialized.
+[2018.11.09-21.57.04:083][579]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.09-21.57.04:084][579]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled_3 up for play (max tick rate 0) at 2018.11.09-22.57.04
+[2018.11.09-21.57.04:084][579]LogWorld: Bringing up level for play took: 0.000533
+[2018.11.09-21.57.04:096][579]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_3 -0,788
+[2018.11.09-21.57.24:060][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.57.24:086][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-21.57.24:105][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.57.24:166][977]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.11.09-21.57.37:496][550]LogEditorViewport: Clicking Background
+[2018.11.09-21.57.39:760][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.57.55:488][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.57.59:302][132]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-21.58.01:958][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.58.02:033][442]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-21.58.02:040][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-21.58.02:040][442]PIE: New page: PIE session: Untitled_3 (9 lis 2018, 23:58:02)
+[2018.11.09-21.58.02:040][442]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2018.11.09-21.58.02:043][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003283s)
+[2018.11.09-21.58.02:044][442]LogAIModule: Creating AISystem for world Untitled_3
+[2018.11.09-21.58.02:045][442]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2018.11.09-21.58.02:045][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled_3 to /Temp/UEDPIE_0_Untitled_3.Untitled_3 (0.004494s)
+[2018.11.09-21.58.02:068][442]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-21.58.02:089][442]LogInit: FAudioDevice initialized.
+[2018.11.09-21.58.02:118][442]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.09-21.58.02:119][442]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled_3 up for play (max tick rate 0) at 2018.11.09-22.58.02
+[2018.11.09-21.58.02:119][442]LogWorld: Bringing up level for play took: 0.000581
+[2018.11.09-21.58.02:131][442]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_3 -0,753
+[2018.11.09-21.58.14:560][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.58.14:591][931]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-21.58.14:610][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.58.14:663][935]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.09-21.58.17:314][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.58.35:629][406]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.58.49:889][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.58.52:015][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.58.52:090][ 28]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-21.58.52:097][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-21.58.52:097][ 28]PIE: New page: PIE session: Untitled_3 (9 lis 2018, 23:58:52)
+[2018.11.09-21.58.52:097][ 28]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2018.11.09-21.58.52:100][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002813s)
+[2018.11.09-21.58.52:101][ 28]LogAIModule: Creating AISystem for world Untitled_3
+[2018.11.09-21.58.52:101][ 28]LogPlayLevel: PIE: World Init took: (0.001467s)
+[2018.11.09-21.58.52:101][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled_3 to /Temp/UEDPIE_0_Untitled_3.Untitled_3 (0.004378s)
+[2018.11.09-21.58.52:126][ 28]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-21.58.52:148][ 28]LogInit: FAudioDevice initialized.
+[2018.11.09-21.58.52:174][ 28]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.09-21.58.52:175][ 28]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled_3 up for play (max tick rate 0) at 2018.11.09-22.58.52
+[2018.11.09-21.58.52:175][ 28]LogWorld: Bringing up level for play took: 0.000538
+[2018.11.09-21.58.52:186][ 28]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_3 -0,699
+[2018.11.09-21.58.58:017][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.58.58:045][725]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-21.58.58:064][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.58.58:123][730]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.09-21.59.00:675][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.59.12:751][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.59.12:834][458]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-21.59.12:840][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-21.59.12:840][458]PIE: New page: PIE session: Untitled_3 (9 lis 2018, 23:59:12)
+[2018.11.09-21.59.12:841][458]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2018.11.09-21.59.12:844][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003275s)
+[2018.11.09-21.59.12:844][458]LogAIModule: Creating AISystem for world Untitled_3
+[2018.11.09-21.59.12:844][458]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2018.11.09-21.59.12:844][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled_3 to /Temp/UEDPIE_0_Untitled_3.Untitled_3 (0.003973s)
+[2018.11.09-21.59.12:867][458]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-21.59.12:888][458]LogInit: FAudioDevice initialized.
+[2018.11.09-21.59.12:916][458]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.09-21.59.12:917][458]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled_3 up for play (max tick rate 0) at 2018.11.09-22.59.12
+[2018.11.09-21.59.12:917][458]LogWorld: Bringing up level for play took: 0.000535
+[2018.11.09-21.59.12:929][458]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_3 0,044
+[2018.11.09-21.59.35:372][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.59.35:402][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-21.59.35:421][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-21.59.35:479][153]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.09-21.59.43:379][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.59.46:990][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.59.48:545][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-21.59.48:895][737]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.09-22.01.06:113][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.01.06:196][789]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-22.01.06:203][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-22.01.06:203][789]PIE: New page: PIE session: Untitled_3 (10 lis 2018, 00:01:06)
+[2018.11.09-22.01.06:203][789]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2018.11.09-22.01.06:206][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003374s)
+[2018.11.09-22.01.06:207][789]LogAIModule: Creating AISystem for world Untitled_3
+[2018.11.09-22.01.06:207][789]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2018.11.09-22.01.06:207][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled_3 to /Temp/UEDPIE_0_Untitled_3.Untitled_3 (0.004036s)
+[2018.11.09-22.01.06:229][789]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-22.01.06:250][789]LogInit: FAudioDevice initialized.
+[2018.11.09-22.01.06:279][789]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.09-22.01.06:280][789]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled_3 up for play (max tick rate 0) at 2018.11.09-23.01.06
+[2018.11.09-22.01.06:280][789]LogWorld: Bringing up level for play took: 0.000665
+[2018.11.09-22.01.06:293][789]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_3 -0,594
+[2018.11.09-22.01.14:596][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-22.01.14:623][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-22.01.14:643][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-22.01.14:700][788]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.09-22.01.33:950][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.01.35:680][245]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.09-22.02.04:386][591]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-22.02.06:441][834]Cmd: POLY SELECT ADJACENT SLANTS
+[2018.11.09-22.02.07:487][959]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.09-22.02.07:487][959]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.09-22.02.07:904][  9]Cmd: TRANSACTION UNDO
+[2018.11.09-22.02.07:904][  9]LogEditorTransaction: Undo Select Adjacent Slants
+[2018.11.09-22.02.08:231][ 40]Cmd: TRANSACTION UNDO
+[2018.11.09-22.02.08:231][ 40]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.09-22.02.09:788][210]Cmd: TRANSACTION UNDO
+[2018.11.09-22.02.09:788][210]LogEditorTransaction: Undo Select Brush Surface
+[2018.11.09-22.02.09:992][228]Cmd: TRANSACTION UNDO
+[2018.11.09-22.02.09:992][228]LogEditorTransaction: Undo Select Brush Surface
+[2018.11.09-22.02.10:387][272]Cmd: TRANSACTION UNDO
+[2018.11.09-22.02.10:387][272]LogEditorTransaction: Undo Select Brush Surface
+[2018.11.09-22.02.10:788][317]Cmd: TRANSACTION UNDO
+[2018.11.09-22.02.10:788][317]LogEditorTransaction: Undo Select Brush Surface
+[2018.11.09-22.02.11:242][369]Cmd: TRANSACTION UNDO
+[2018.11.09-22.02.11:242][369]LogEditorTransaction: Undo Move Actors
+[2018.11.09-22.02.11:248][369]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_3.Untitled_3:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2018.11.09-22.03.09:799][263]Cmd: EDIT COPY
+[2018.11.09-22.03.10:451][341]Cmd: EDIT PASTE
+[2018.11.09-22.03.15:616][953]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-22.03.15:793][953]LogSavePackage: Moving '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Untitled_3_Auto1B474B29A412E84923D643A8F8596D300.tmp' to '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Temp/Untitled_3_Auto1.umap'
+[2018.11.09-22.03.15:798][953]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_3' took 0.168
+[2018.11.09-22.03.15:798][953]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.168
+[2018.11.09-22.04.59:694][ 88]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-22.05.01:120][239]Cmd: EDIT COPY
+[2018.11.09-22.05.01:299][260]Cmd: EDIT PASTE
+[2018.11.09-22.05.24:024][941]Cmd: EDIT COPY
+[2018.11.09-22.05.24:184][960]Cmd: EDIT PASTE
+[2018.11.09-22.05.50:224][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-22.06.15:908][ 75]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-22.06.34:419][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.06.34:511][252]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-22.06.34:517][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-22.06.34:517][252]PIE: New page: PIE session: Untitled_3 (10 lis 2018, 00:06:34)
+[2018.11.09-22.06.34:518][252]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_3
+[2018.11.09-22.06.34:523][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005336s)
+[2018.11.09-22.06.34:523][252]LogAIModule: Creating AISystem for world Untitled_3
+[2018.11.09-22.06.34:524][252]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2018.11.09-22.06.34:524][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_3.Untitled_3 to /Temp/UEDPIE_0_Untitled_3.Untitled_3 (0.006059s)
+[2018.11.09-22.06.34:548][252]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-22.06.34:569][252]LogInit: FAudioDevice initialized.
+[2018.11.09-22.06.34:595][252]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.09-22.06.34:596][252]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_3.Untitled_3 up for play (max tick rate 0) at 2018.11.09-23.06.34
+[2018.11.09-22.06.34:596][252]LogWorld: Bringing up level for play took: 0.000667
+[2018.11.09-22.06.34:608][252]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_3 -0,283
+[2018.11.09-22.07.48:279][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-22.07.48:311][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-22.07.48:332][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-22.07.48:383][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.09-22.08.36:307][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.09.47:305][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.13.46:648][ 20]Cmd: DELETE
+[2018.11.09-22.13.46:648][ 20]Cmd: ACTOR DELETE
+[2018.11.09-22.13.46:657][ 20]LogEditorActor: Deleted Actor: Brush
+[2018.11.09-22.13.46:681][ 20]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.11.09-22.13.47:792][148]Cmd: DELETE
+[2018.11.09-22.13.47:792][148]Cmd: ACTOR DELETE
+[2018.11.09-22.13.47:801][148]LogEditorActor: Deleted Actor: Brush
+[2018.11.09-22.13.47:824][148]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2018.11.09-22.13.49:273][317]Cmd: EDIT COPY
+[2018.11.09-22.13.49:501][344]Cmd: EDIT PASTE
+[2018.11.09-22.13.59:023][473]Cmd: EDIT COPY
+[2018.11.09-22.13.59:207][493]Cmd: EDIT PASTE
+[2018.11.09-22.14.58:510][416]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-22.16.54:449][209]LogSavePackage: Moving '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Untitled_3_Auto224880070492829480DA9B78569BA3DB3.tmp' to '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Temp/Untitled_3_Auto2.umap'
+[2018.11.09-22.16.54:452][209]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_3' took 0.226
+[2018.11.09-22.16.54:452][209]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.226
+[2018.11.09-22.19.04:605][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.19.19:466][759]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-22.19.20:614][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.21.07:196][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.21.44:068][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-22.21.45:433][272]Cmd: MODE GRID=0
+[2018.11.09-22.21.50:409][848]Cmd: TRANSACTION UNDO
+[2018.11.09-22.21.50:409][848]LogEditorTransaction: Undo Move Actors
+[2018.11.09-22.22.17:628][914]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-22.22.21:947][415]Cmd: TRANSACTION UNDO
+[2018.11.09-22.22.21:947][415]LogEditorTransaction: Undo Move Actors
+[2018.11.09-22.22.24:854][607]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-22.22.28:239][974]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-22.23.21:438][158]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-22.23.35:793][834]Cmd: TRANSACTION UNDO
+[2018.11.09-22.23.35:793][834]LogEditorTransaction: Undo Move Actors
+[2018.11.09-22.23.46:445][ 58]Cmd: TRANSACTION UNDO
+[2018.11.09-22.23.46:445][ 58]LogEditorTransaction: Undo Move Actors
+[2018.11.09-22.25.00:968][741]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-22.25.02:673][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.25.03:891][936]LogSlate: Window 'Save Level As' being destroyed
+[2018.11.09-22.25.11:246][ 18]LogSlate: Window 'Save Level As' being destroyed
+[2018.11.09-22.25.11:354][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pivnica" FILE="../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Content/Pivnica.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.09-22.25.11:592][ 18]LogSavePackage: Moving '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Saved/PivnicaD2AAF686423B28B99EB8709C5F72AFFA.tmp' to '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Content/Pivnica.umap'
+[2018.11.09-22.25.11:611][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pivnica_BuiltData" FILE="../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Content/Pivnica_BuiltData.uasset" SILENT=true
+[2018.11.09-22.25.11:622][ 18]LogSavePackage: Moving '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Pivnica_BuiltData5D658FC14E46184E1AB575A7C420595E.tmp' to '../../../../../../Users/Adrian/Documents/GameJam/The negatyw project/TheNegatyw/Content/Pivnica_BuiltData.uasset'
+[2018.11.09-22.25.11:628][ 18]LogFileHelpers: Saving map 'Pivnica' took 0.378
+[2018.11.09-22.25.24:886][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-22.25.26:882][786]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.09-22.26.37:130][156]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
