@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeTheNegatyw_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/TheNegatyw",
 				PKG_CompiledIn | 0x00000000,
-				0x10D1D037,
-				0x352C2962,
+				0xB213B642,
+				0xE8FD5E28,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
