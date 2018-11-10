@@ -505,3 +505,705 @@ LogInit: Object subsystem initialized
 [2018.11.10-13.36.11:670][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Regal_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset" SILENT=true
 [2018.11.10-13.36.11:688][500]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Regal_M0428EF704CF227FB171199AEDB9B435A.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset'
 [2018.11.10-13.36.15:768][870]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap9A44DEDD47090A33DEEAB29F12353482.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.10-13.46.15:128][695]LogAssetTools: Warning: Failed to import 'C:\Users\Trojan\Desktop\Modele\#Modele\sloik.max'. Unknown extension 'max'.
+[2018.11.10-13.46.22:710][722]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\#FBX\sloik.FBX)
+[2018.11.10-13.46.22:719][722]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\#FBX\sloik.FBX
+[2018.11.10-13.46.22:725][722]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-13.46.24:001][722]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-13.46.24:023][722]LogMaterial: Display: Missing cached shader map for material 03_-_Default, compiling. 
+[2018.11.10-13.46.24:037][722]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.10-13.46.24:037][722]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.10-13.46.24:037][722]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-13.46.24:037][722]LogStaticMesh: Building static mesh sloik...
+[2018.11.10-13.46.24:044][722]LogStaticMesh: Built static mesh [0.01s] /Game/Meshe/sloik.sloik
+[2018.11.10-13.46.26:993][949]LogActorFactory: Actor Factory created sloik
+[2018.11.10-13.46.29:141][185]LogActorFactory: Actor Factory created sloik
+[2018.11.10-13.46.47:945][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-13.46.48:724][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.47.24:932][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.47.27:122][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sloik)
+[2018.11.10-13.47.35:539][681]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-13.47.38:396][872]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Materials/M_Glass.M_Glass
+[2018.11.10-13.47.38:401][872]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.47.38:849][872]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.47.38:885][872]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-13.47.38:885][872]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-13.47.38:885][872]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-13.47.38:885][872]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-13.47.38:910][872]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.11.10-13.47.38:944][872]LogSlate: Took 0.001338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.10-13.47.39:343][875]LogSlate: Took 0.001805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.10-13.47.39:948][897]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-13.47.39:948][897]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-13.47.39:975][898]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-13.47.40:023][900]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-13.47.40:350][909]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-13.47.40:350][909]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-13.47.40:437][912]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-13.47.40:462][913]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-13.47.41:084][931]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-13.47.41:727][950]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-13.47.44:310][ 31]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.10-13.47.44:730][ 46]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.10-13.47.45:107][ 58]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.10-13.47.45:346][ 67]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.10-13.47.45:589][ 75]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.10-13.47.46:032][ 90]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.10-13.47.46:121][ 93]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_8, compiling. 
+[2018.11.10-13.47.46:601][112]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.10-13.47.46:919][122]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.10-13.47.49:045][194]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.47.49:130][194]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.10-13.47.49:145][194]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_8, compiling. 
+[2018.11.10-13.47.49:184][194]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.47.49:587][204]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.11.10-13.47.49:854][212]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.10-13.47.50:094][217]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.10-13.47.50:325][223]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.47.50:418][223]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_8, compiling. 
+[2018.11.10-13.47.50:457][223]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.47.50:615][225]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.10-13.47.50:705][228]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.10-13.47.50:832][232]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-13.47.51:220][244]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-13.47.51:220][244]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-13.47.51:327][247]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-13.47.51:469][251]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-13.47.51:580][255]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-13.47.51:650][257]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-13.47.51:753][260]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-13.47.51:949][266]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-13.47.51:986][267]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-13.47.52:015][268]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-13.47.52:160][272]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-13.47.52:349][279]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.47.52:427][279]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_8, compiling. 
+[2018.11.10-13.47.52:465][279]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.47.52:804][288]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.10-13.47.53:320][308]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.10-13.47.53:435][312]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-13.47.53:787][325]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-13.47.53:875][327]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-13.47.54:112][336]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-13.47.54:238][341]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-13.47.54:465][349]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-13.47.55:192][352]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-13.47.55:192][352]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-13.47.55:192][352]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-13.47.55:192][352]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-13.47.56:171][366]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-13.47.56:441][374]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-13.47.57:048][394]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.10-13.47.57:497][410]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.10-13.47.59:086][470]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.10-13.47.59:621][489]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.10-13.48.00:221][512]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.10-13.48.00:453][520]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.10-13.48.01:339][552]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.10-13.48.02:092][581]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.10-13.48.02:190][584]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.48.02:293][584]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_8, compiling. 
+[2018.11.10-13.48.02:331][584]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.48.02:678][592]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.10-13.48.02:704][593]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.10-13.48.03:194][612]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-13.48.03:273][615]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-13.48.03:316][616]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.48.03:501][617]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-13.48.03:603][621]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-13.48.03:876][630]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-13.48.03:903][631]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-13.48.04:579][638]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-13.48.04:579][638]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-13.48.04:579][638]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-13.48.04:579][638]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-13.48.04:583][638]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-13.48.04:600][638]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-13.48.04:618][638]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-13.48.05:255][638]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-13.48.05:657][638]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.10-13.48.05:809][643]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.10-13.48.08:614][737]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.10-13.48.08:904][747]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.10-13.48.09:518][771]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.10-13.48.09:582][773]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.10-13.48.09:933][785]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.10-13.48.10:183][794]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.10-13.48.10:832][818]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.10-13.48.11:301][834]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.10-13.48.11:672][846]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.48.11:750][846]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_8, compiling. 
+[2018.11.10-13.48.11:788][846]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.48.14:006][883]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.10-13.48.14:006][883]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.10-13.48.14:382][896]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-13.48.14:454][898]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-13.48.14:710][907]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-13.48.14:771][909]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-13.48.15:044][919]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-13.48.15:109][921]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-13.48.15:146][922]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-13.48.15:457][933]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-13.48.15:477][934]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-13.48.15:528][936]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-13.48.15:627][939]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-13.48.15:832][946]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-13.48.16:491][971]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.10-13.48.16:620][976]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.48.16:694][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_8, compiling. 
+[2018.11.10-13.48.16:734][976]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.48.16:928][980]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.10-13.48.17:594][  1]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.10-13.48.18:136][  1]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-13.48.18:517][  1]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-13.48.18:591][  1]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-13.48.18:929][  4]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-13.48.18:978][  5]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-13.48.19:042][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-13.48.19:293][  7]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-13.48.19:395][ 10]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-13.48.19:655][ 19]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-13.48.19:683][ 20]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-13.48.19:754][ 23]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-13.48.20:034][ 34]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-13.48.20:058][ 35]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-13.48.20:205][ 40]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-13.48.20:344][ 45]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-13.48.20:345][ 45]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-13.48.20:391][ 47]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-13.48.20:559][ 53]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-13.48.20:869][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.48.21:191][ 76]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.10-13.48.21:725][103]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.10-13.48.23:971][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sloik)
+[2018.11.10-13.48.24:670][236]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.10-13.48.25:094][252]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.10-13.48.25:738][274]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.10-13.48.25:831][276]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.10-13.48.26:191][291]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.10-13.48.26:587][306]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.10-13.48.27:238][334]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.10-13.48.27:711][352]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.10-13.48.28:769][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.48.28:935][402]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel
+[2018.11.10-13.48.28:942][402]LogMaterial: Display: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2018.11.10-13.48.29:179][402]LogMaterial: Display: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2018.11.10-13.48.29:255][402]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_47, compiling. 
+[2018.11.10-13.48.29:277][402]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_46, compiling. 
+[2018.11.10-13.48.29:293][402]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_49, compiling. 
+[2018.11.10-13.48.29:306][402]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_50, compiling. 
+[2018.11.10-13.48.29:318][402]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_51, compiling. 
+[2018.11.10-13.48.29:330][402]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_18, compiling. 
+[2018.11.10-13.48.30:626][433]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.11.10-13.48.30:770][435]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.11.10-13.48.31:308][436]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.11.10-13.48.31:866][453]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.11.10-13.48.31:891][454]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.10-13.48.32:449][471]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.11.10-13.48.33:164][495]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.11.10-13.48.33:292][499]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.11.10-13.48.36:380][583]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.11.10-13.48.37:370][610]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.11.10-13.48.37:932][628]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.11.10-13.48.38:035][631]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.11.10-13.48.38:348][640]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.11.10-13.48.38:722][652]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.11.10-13.48.39:414][671]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.10-13.48.39:896][685]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.11.10-13.48.43:841][802]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.11.10-13.48.43:876][803]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.11.10-13.48.44:577][825]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.10-13.48.44:914][835]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.10-13.48.45:300][847]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-13.48.45:439][851]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-13.48.46:125][873]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-13.48.46:651][891]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-13.48.46:709][893]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-13.48.47:188][909]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-13.48.47:253][911]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-13.48.47:602][923]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-13.48.47:656][925]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-13.48.48:052][938]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-13.48.48:080][939]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-13.48.48:454][950]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-13.48.48:535][953]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.10-13.48.49:144][971]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.10-13.48.49:359][978]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.10-13.48.49:508][983]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.10-13.48.49:538][984]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.10-13.48.49:711][989]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.10-13.48.50:134][  2]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.10-13.48.50:270][  6]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.10-13.48.50:469][ 14]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.10-13.48.50:611][ 19]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.10-13.48.50:862][ 27]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.10-13.48.51:046][ 33]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.10-13.48.51:405][ 46]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.10-13.48.51:406][ 46]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.10-13.48.51:561][ 52]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.10-13.48.51:946][ 62]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.10-13.48.51:976][ 62]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.10-13.48.52:343][ 68]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.10-13.48.52:345][ 68]MaterialEditorStats: Base pass shader: 307 instructions
+[2018.11.10-13.48.52:345][ 68]MaterialEditorStats: Base pass shader with Surface Lightmap: 342 instructions
+[2018.11.10-13.48.52:345][ 68]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 392 instructions
+[2018.11.10-13.48.52:345][ 68]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2018.11.10-13.48.52:345][ 68]MaterialEditorStats: Texture samplers: 4/16
+[2018.11.10-13.48.52:535][ 74]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.10-13.48.52:569][ 75]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.10-13.48.53:012][ 89]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.10-13.48.53:146][ 93]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.10-13.48.53:272][ 97]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.10-13.48.53:459][103]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.10-13.48.53:722][111]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.10-13.48.53:775][113]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.10-13.48.53:999][120]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.10-13.48.54:031][121]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.10-13.48.54:312][131]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.10-13.48.54:481][137]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.10-13.48.54:597][141]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-13.48.54:738][146]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.10-13.48.55:175][162]MaterialEditorStats: Base pass shader: 126 instructions
+[2018.11.10-13.48.55:175][162]MaterialEditorStats: Base pass shader with Surface Lightmap: 143 instructions
+[2018.11.10-13.48.55:175][162]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2018.11.10-13.48.55:175][162]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.11.10-13.48.55:175][162]MaterialEditorStats: Texture samplers: 6/16
+[2018.11.10-13.48.55:175][162]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2018.11.10-13.48.55:175][162]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.10-13.48.56:650][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-13.49.09:349][973]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.49.13:480][195]LogSlate: Window 'Message' being destroyed
+[2018.11.10-13.49.13:486][195]LogSlate: Window 'M_Metal_Burnished_Steel' being destroyed
+[2018.11.10-13.49.13:487][195]LogSlate: Window 'M_Metal_Burnished_Steel' being destroyed
+[2018.11.10-13.49.14:564][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-13.49.15:041][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sloik)
+[2018.11.10-13.49.15:443][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-13.49.15:943][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sloik)
+[2018.11.10-13.49.21:074][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.49.21:232][897]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel
+[2018.11.10-13.49.21:237][897]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.11.10-13.49.21:335][897]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.11.10-13.49.21:358][897]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.10-13.49.21:358][897]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.10-13.49.21:358][897]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.10-13.49.21:358][897]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.10-13.49.21:358][897]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.11.10-13.49.21:413][897]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_47, compiling. 
+[2018.11.10-13.49.21:423][897]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_46, compiling. 
+[2018.11.10-13.49.21:431][897]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_49, compiling. 
+[2018.11.10-13.49.21:442][897]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_50, compiling. 
+[2018.11.10-13.49.21:453][897]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_51, compiling. 
+[2018.11.10-13.49.21:462][897]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_18, compiling. 
+[2018.11.10-13.49.22:472][923]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-13.49.22:521][925]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-13.49.22:548][926]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-13.49.22:548][926]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-13.49.23:030][943]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-13.49.23:031][943]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-13.49.23:091][945]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-13.49.23:119][946]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-13.49.23:482][960]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-13.49.23:482][960]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-13.49.23:512][961]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.10-13.49.23:513][961]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.10-13.49.23:921][976]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.10-13.49.24:079][981]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.10-13.49.24:361][991]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.10-13.49.24:475][995]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.10-13.49.24:799][  7]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.10-13.49.24:953][ 13]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.10-13.49.24:980][ 14]LogSlate: Window 'M_Metal_Burnished_Steel' being destroyed
+[2018.11.10-13.49.24:991][ 14]LogSlate: Window 'M_Metal_Burnished_Steel' being destroyed
+[2018.11.10-13.49.25:020][ 14]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.10-13.49.25:351][ 24]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.10-13.49.25:509][ 30]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.10-13.49.25:714][ 38]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.10-13.49.25:968][ 49]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.10-13.49.26:085][ 54]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.10-13.49.26:385][ 68]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.10-13.49.26:657][ 80]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.10-13.49.26:681][ 81]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.10-13.49.27:006][ 97]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.10-13.49.27:237][107]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-13.49.27:440][116]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.10-13.49.39:490][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.49.54:013][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-13.49.54:679][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sloik)
+[2018.11.10-13.49.55:596][617]Cmd: DELETE
+[2018.11.10-13.49.55:596][617]Cmd: ACTOR DELETE
+[2018.11.10-13.49.55:598][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-13.49.55:626][617]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2018.11.10-13.49.55:992][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-13.50.00:844][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.50.10:888][778]LogActorFactory: Actor Factory created sloik
+[2018.11.10-13.50.11:991][896]LogActorFactory: Actor Factory created sloik
+[2018.11.10-13.50.16:599][401]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.50.50:907][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-13.51.34:296][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-13.51.36:264][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-13.51.36:527][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sloik)
+[2018.11.10-13.51.36:941][  2]Cmd: DELETE
+[2018.11.10-13.51.36:941][  2]Cmd: ACTOR DELETE
+[2018.11.10-13.51.36:943][  2]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-13.51.36:965][  2]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.11.10-13.52.03:725][344]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto31C94245C4E470FF46D11D19B66CA75F1.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2018.11.10-13.52.03:731][344]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.143
+[2018.11.10-13.52.03:731][344]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.143
+[2018.11.10-13.52.03:734][344]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/sloik] ([1] browsable assets)...
+[2018.11.10-13.52.03:776][344]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshe/sloik.sloik]
+[2018.11.10-13.52.03:776][344]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/sloik]
+[2018.11.10-13.52.03:808][344]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/sloik_Auto3165F355342B9598C5426038DC99A206E.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/sloik_Auto3.uasset'
+[2018.11.10-13.52.03:814][344]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/03_-_Default] ([1] browsable assets)...
+[2018.11.10-13.52.03:864][344]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshe/03_-_Default.03_-_Default]
+[2018.11.10-13.52.03:864][344]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/03_-_Default]
+[2018.11.10-13.52.03:887][344]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/03_-_Default_Auto3D4A3C3FF4716AC83806D5EA9A1E555BD.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/03_-_Default_Auto3.uasset'
+[2018.11.10-13.52.03:892][344]LogFileHelpers: Auto-saving content packages took 0.161
+[2018.11.10-14.01.51:363][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.02.03:806][ 83]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.10-14.02.03:815][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-14.02.03:829][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-14.02.11:977][294]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\#FBX\sloik.FBX)
+[2018.11.10-14.02.11:986][294]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\#FBX\sloik.FBX
+[2018.11.10-14.02.11:994][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-14.02.12:008][294]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-14.02.13:263][294]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-14.02.13:280][294]LogLinker: Can't find file '/Game/Meshe/Metal_Painted_001_baseColor'
+[2018.11.10-14.02.13:280][294]LogLinker: Can't find file '/Game/Meshe/Metal_Painted_001_baseColor'
+[2018.11.10-14.02.13:300][294]LogTexture: Display: Building textures: Metal_Painted_001_baseColor (AutoDXT, 1024X1024)
+[2018.11.10-14.02.13:469][294]LogLinker: Can't find file '/Game/Meshe/Metal_Painted_001_height'
+[2018.11.10-14.02.13:469][294]LogLinker: Can't find file '/Game/Meshe/Metal_Painted_001_height'
+[2018.11.10-14.02.13:504][294]LogTexture: Display: Building textures: Metal_Painted_001_height (AutoDXT, 1024X1024)
+[2018.11.10-14.02.13:615][294]LogLinker: Can't find file '/Game/Meshe/Metal_Painted_001_normal'
+[2018.11.10-14.02.13:615][294]LogLinker: Can't find file '/Game/Meshe/Metal_Painted_001_normal'
+[2018.11.10-14.02.13:638][294]LogTexture: Display: Building textures: Metal_Painted_001_normal (BC5, 1024X1024)
+[2018.11.10-14.02.13:688][294]LogMaterial: Display: Missing cached shader map for material wieczko, compiling. 
+[2018.11.10-14.02.13:708][294]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.10-14.02.13:708][294]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.10-14.02.13:708][294]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-14.02.13:714][294]LogStaticMesh: Building static mesh sloik...
+[2018.11.10-14.02.13:762][294]LogStaticMesh: Built static mesh [0.05s] /Game/Meshe/sloik.sloik
+[2018.11.10-14.02.15:985][482]LogActorFactory: Actor Factory created sloik
+[2018.11.10-14.02.16:955][582]LogActorFactory: Actor Factory created sloik
+[2018.11.10-14.02.31:453][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.02.42:089][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.03.09:092][122]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto4C9336C9B47CBC95682312EB6D3918EBA.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2018.11.10-14.03.09:098][122]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.159
+[2018.11.10-14.03.09:098][122]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.159
+[2018.11.10-14.03.09:100][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/sloik] ([1] browsable assets)...
+[2018.11.10-14.03.09:133][122]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshe/sloik.sloik]
+[2018.11.10-14.03.09:133][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/sloik]
+[2018.11.10-14.03.09:145][122]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/sloik_Auto47DCC13424C1A176226ADB3B18A9C72CB.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/sloik_Auto4.uasset'
+[2018.11.10-14.03.09:149][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/wieczko] ([1] browsable assets)...
+[2018.11.10-14.03.09:180][122]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshe/wieczko.wieczko]
+[2018.11.10-14.03.09:180][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/wieczko]
+[2018.11.10-14.03.09:193][122]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/wieczko_Auto439BA7F8A49B9986AD4B742B1A437AE1F.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/wieczko_Auto4.uasset'
+[2018.11.10-14.03.09:197][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Metal_Painted_001_baseColor] ([1] browsable assets)...
+[2018.11.10-14.03.09:204][122]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Metal_Painted_001_baseColor.Metal_Painted_001_baseColor]
+[2018.11.10-14.03.09:204][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Metal_Painted_001_baseColor]
+[2018.11.10-14.03.09:216][122]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Metal_Painted_001_baseColor_Auto000EA4F84AD3C127F4C53CBED62A2677.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Metal_Painted_001_baseColor_Auto4.uasset'
+[2018.11.10-14.03.09:220][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Metal_Painted_001_height] ([1] browsable assets)...
+[2018.11.10-14.03.09:227][122]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Metal_Painted_001_height.Metal_Painted_001_height]
+[2018.11.10-14.03.09:227][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Metal_Painted_001_height]
+[2018.11.10-14.03.09:239][122]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Metal_Painted_001_height_Auto4F3C507CD4F5603F63A7E168A2B7F4A88.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Metal_Painted_001_height_Auto4.uasset'
+[2018.11.10-14.03.09:243][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Metal_Painted_001_normal] ([1] browsable assets)...
+[2018.11.10-14.03.09:250][122]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Metal_Painted_001_normal.Metal_Painted_001_normal]
+[2018.11.10-14.03.09:250][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Metal_Painted_001_normal]
+[2018.11.10-14.03.09:263][122]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Metal_Painted_001_normal_Auto4FE7789204948CF60EFB2DA9D5ABBE308.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Metal_Painted_001_normal_Auto4.uasset'
+[2018.11.10-14.03.09:266][122]LogFileHelpers: Auto-saving content packages took 0.167
+[2018.11.10-14.17.22:028][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sloik)
+[2018.11.10-14.17.23:389][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.17.39:648][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sloik)
+[2018.11.10-14.17.41:144][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.17.41:313][839]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Materials/M_Glass.M_Glass
+[2018.11.10-14.17.41:317][839]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.17.41:422][839]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.17.41:450][839]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.17.41:493][839]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-14.17.41:493][839]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-14.17.41:493][839]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-14.17.41:493][839]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-14.17.41:507][839]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.11.10-14.17.42:504][872]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-14.17.42:529][873]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-14.17.42:557][874]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-14.17.42:588][875]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-14.17.42:887][886]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-14.17.42:959][889]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-14.17.43:010][891]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-14.17.43:010][891]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-14.17.43:676][915]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-14.17.44:347][939]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-14.17.47:472][ 42]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.10-14.17.48:026][ 58]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.10-14.17.48:522][ 76]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.10-14.17.48:722][ 83]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.10-14.17.48:897][ 89]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.10-14.17.49:385][107]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.10-14.17.50:012][128]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.10-14.17.50:291][137]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.10-14.17.53:067][231]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.10-14.17.53:521][247]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.10-14.17.54:122][267]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.10-14.17.54:452][278]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.10-14.17.54:625][284]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.10-14.17.54:885][293]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.10-14.17.55:505][313]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.10-14.17.55:947][327]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.10-14.17.58:751][426]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.10-14.17.59:165][441]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.10-14.17.59:799][463]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.10-14.17.59:862][465]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.10-14.18.00:142][473]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.10-14.18.00:496][483]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.10-14.18.01:208][504]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.10-14.18.01:736][520]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.10-14.18.04:152][590]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.04:228][590]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.05:074][618]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.10-14.18.05:218][622]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.10-14.18.05:436][628]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.05:526][628]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.05:673][630]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-14.18.05:729][632]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-14.18.06:051][643]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-14.18.06:090][644]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-14.18.06:232][649]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-14.18.06:449][659]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-14.18.06:480][660]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-14.18.06:628][665]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-14.18.06:714][668]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-14.18.06:782][671]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-14.18.06:851][674]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-14.18.06:996][680]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-14.18.07:141][685]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.07:232][685]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.07:623][692]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-14.18.07:979][705]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-14.18.08:149][711]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-14.18.08:334][718]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-14.18.08:587][726]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-14.18.09:042][726]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-14.18.09:042][726]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-14.18.09:042][726]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-14.18.09:295][726]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-14.18.09:359][726]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-14.18.10:992][776]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-14.18.11:354][790]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.11:426][790]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-14.18.11:437][790]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.11:755][795]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-14.18.12:130][807]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-14.18.12:330][814]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.10-14.18.12:457][818]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.10-14.18.13:095][820]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.10-14.18.13:095][820]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.10-14.18.13:108][820]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.10-14.18.13:108][820]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.10-14.18.13:397][820]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-14.18.13:663][820]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-14.18.13:663][820]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-14.18.13:895][827]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.10-14.18.14:546][848]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.10-14.18.14:880][856]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.10-14.18.16:929][923]LogMaterialEditor: Applying material M_Glass
+[2018.11.10-14.18.18:874][923]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.10-14.18.18:875][923]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.10-14.18.18:875][923]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.10-14.18.18:939][923]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.19:234][923]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.10-14.18.19:234][923]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.10-14.18.19:286][923]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.19:407][923]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.18.19:553][923]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.11.10-14.18.40:279][923]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.11.10-14.18.40:279][923]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.11.10-14.18.40:279][923]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.11.10-14.18.40:279][923]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.11.10-14.18.40:279][923]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.11.10-14.18.40:279][923]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.11.10-14.18.40:280][923]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.10-14.18.40:281][923]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.11.10-14.18.40:281][923]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.11.10-14.18.40:281][923]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.11.10-14.18.40:281][923]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.10-14.18.40:281][923]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.10-14.18.40:281][923]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-14.18.40:283][923]TextureStreamingBuild: Display: Compiling optional shaders took 20.750 seconds.
+[2018.11.10-14.18.41:997][975]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.10-14.18.42:539][994]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.10-14.18.44:670][ 66]LogSlate: Window 'M_Glass*' being destroyed
+[2018.11.10-14.18.44:680][ 66]LogSlate: Window 'M_Glass*' being destroyed
+[2018.11.10-14.18.50:891][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.18.50:981][338]MapCheck: New page: Map Check
+[2018.11.10-14.18.51:004][338]Cmd: MAP REBUILD ALLVISIBLE
+[2018.11.10-14.18.51:004][338]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.11.10-14.19.04:723][338]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.10-14.19.04:723][338]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.11.10-14.19.04:733][338]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.10-14.19.04:733][338]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.11.10-14.19.04:776][338]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.10-14.19.04:776][338]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy HelpActorMaterial, compiling. 
+[2018.11.10-14.19.04:790][338]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.10-14.19.04:790][338]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy RampMaterial, compiling. 
+[2018.11.10-14.19.04:803][338]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.10-14.19.04:803][338]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2018.11.10-14.19.04:813][338]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Regal_M, compiling. 
+[2018.11.10-14.19.04:827][338]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy wieczko, compiling. 
+[2018.11.10-14.19.04:841][338]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.11.10-14.19.04:864][338]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.11.10-14.19.05:540][338]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.10-14.19.05:540][338]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.10-14.19.05:540][338]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.10-14.19.05:540][338]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-14.19.05:540][338]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.10-14.19.05:540][338]TextureStreamingBuild: Display: Compiling optional shaders took 0.820 seconds.
+[2018.11.10-14.19.05:569][338]LogLevel: Display: Export Material TexCoord Scales took 0.029 seconds.
+[2018.11.10-14.19.05:585][338]TextureStreamingBuild: Display: Build Texture Streaming took 0.015 seconds.
+[2018.11.10-14.19.05:612][338]LightingResults: New page: Lighting Build - 10 lis 2018, 16:19:05
+[2018.11.10-14.19.05:670][338]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.11.10-14.19.05:781][338]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.11.10-14.19.05:799][338]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.11.10-14.19.06:317][338]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.11.10-14.19.06:317][338]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6272
+[2018.11.10-14.19.11:028][338]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.11.10-14.19.11:028][338]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.11.10-14.19.11:028][338]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.11.10-14.19.11:028][338]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.11.10-14.19.11:028][338]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.11.10-14.19.11:221][338]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.11.10-14.19.11:221][338]MapCheck: New page: ThirdPersonExampleMap - 10 lis 2018, 16:19:11
+[2018.11.10-14.19.11:357][338]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 136,52ms to complete.
+[2018.11.10-14.19.11:380][338]LogEditorBuildUtils: Build time 0:20
+[2018.11.10-14.19.11:404][338]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer RampMaterial, compiling. 
+[2018.11.10-14.19.11:417][338]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-14.19.11:417][338]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer RampMaterial, compiling. 
+[2018.11.10-14.19.11:447][338]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-14.19.11:466][339]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Regal_M, compiling. 
+[2018.11.10-14.19.11:471][339]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-14.19.11:471][339]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Regal_M, compiling. 
+[2018.11.10-14.19.11:475][339]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-14.19.11:544][340]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer wieczko, compiling. 
+[2018.11.10-14.19.11:551][340]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer wieczko, compiling. 
+[2018.11.10-14.19.11:572][341]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2018.11.10-14.19.11:580][341]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2018.11.10-14.19.13:589][343]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.10-14.19.14:961][351]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto5D8F51E92487A43370E85F3B51EB7D80E.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2018.11.10-14.19.14:967][351]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.141
+[2018.11.10-14.19.14:967][351]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2018.11.10-14.19.14:971][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Glass] ([1] browsable assets)...
+[2018.11.10-14.19.14:984][351]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Glass.M_Glass]
+[2018.11.10-14.19.14:984][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Glass]
+[2018.11.10-14.19.15:004][351]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/M_Glass_Auto549C759A74C0FB97BC1DF7B8F4AEC962C.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/StarterContent/Materials/M_Glass_Auto5.uasset'
+[2018.11.10-14.19.15:007][351]LogFileHelpers: Auto-saving content packages took 0.038
+[2018.11.10-14.19.19:686][610]Job is a success!
+[2018.11.10-14.19.19:724][611]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-14.19.19:758][611]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.024s
+[2018.11.10-14.19.19:758][611]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.11.10-14.19.19:758][611]LogVolumetricLightmapImport:      BrickData 145x5x5 = 0.1Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2018.11.10-14.19.19:758][611]LogVolumetricLightmapImport:      Bricks at Level
+[2018.11.10-14.19.19:758][611]LogVolumetricLightmapImport:          0: 3.4% covering 100.0% of volume
+[2018.11.10-14.19.19:758][611]LogVolumetricLightmapImport:          1: 13.8% covering 6.3% of volume
+[2018.11.10-14.19.19:758][611]LogVolumetricLightmapImport:          2: 82.8% covering 0.6% of volume
+[2018.11.10-14.19.19:800][611]LogMaterial: Warning: Material /Game/Meshe/Regal_M.Regal_M needed to have new flag set bUsedWithStaticLighting !
+[2018.11.10-14.19.19:803][611]LogMaterial: Display: Missing cached shader map for material Regal_M, compiling. 
+[2018.11.10-14.19.19:827][611]LogMaterial: Warning: Material /Game/Meshe/wieczko.wieczko needed to have new flag set bUsedWithStaticLighting !
+[2018.11.10-14.19.19:829][611]LogMaterial: Display: Missing cached shader map for material wieczko, compiling. 
+[2018.11.10-14.19.19:843][611]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.10-14.19.19:843][611]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.10-14.19.19:843][611]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.10-14.19.19:843][611]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.10-14.19.20:900][611]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.11.10-14.19.20:901][611]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.11.10-14.19.20:901][611]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.11.10-14.19.20:901][611]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2018.11.10-14.19.20:901][611]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.11.10-14.19.20:901][611]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.11.10-14.19.20:901][611]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2018.11.10-14.19.20:901][611]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.11.10-14.19.20:901][611]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.11.10-14.19.20:901][611]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.10-14.19.21:102][611]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.11.10-14.19.21:669][611]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2018.11.10-14.19.21:728][611]Lightmass on DESKTOP-822VDRC: 6.78 sec total, 107 ms importing, 10 ms setup, 1.06 sec photons, 5.55 sec processing, 0 ms extra exporting [14/14 mappings]. Threads: 38.7 sec total, 11.8 sec processing.
+[2018.11.10-14.19.21:792][611]LogStaticLightingSystem: Illumination: 16.1 sec (1.06 sec encoding lightmaps, 754 ms encoding shadowmaps)
+[2018.11.10-14.19.21:792][611]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.11.10-14.19.21:792][611]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.11.10-14.19.22:039][611]DumpUnbuiltLightIteractions
+[2018.11.10-14.19.22:039][611]Lights with unbuilt interactions: 0
+[2018.11.10-14.19.22:039][611]
+[2018.11.10-14.19.22:039][611]Primitives with unbuilt interactions: 0
+[2018.11.10-14.19.28:762][611]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.10-14.19.28:762][611]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.10-14.19.28:762][611]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.10-14.19.28:884][612]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.11.10-14.19.28:885][612]MapCheck: New page: ThirdPersonExampleMap - 10 lis 2018, 16:19:28
+[2018.11.10-14.19.29:047][612]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 162,842ms to complete.
+[2018.11.10-14.19.37:273][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.19.48:283][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.19.54:955][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/sloik" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/sloik.uasset" SILENT=true
+[2018.11.10-14.19.54:963][ 84]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/sloikDB7B5F9B4D8ECBE704CF6BA9A9C0344F.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/sloik.uasset'
+[2018.11.10-14.20.10:552][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Sloik_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_M.uasset" SILENT=true
+[2018.11.10-14.20.10:568][250]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Sloik_MF0DE9E764845D4F0F2ADC485B2E64B38.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_M.uasset'
+[2018.11.10-14.20.10:804][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/sloik" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/sloik.uasset" SILENT=true
+[2018.11.10-14.20.10:821][250]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/sloik603B72974D60B1096D153CBCEFF2405D.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/sloik.uasset'
+[2018.11.10-14.20.26:808][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Sloik_T" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_T.uasset" SILENT=true
+[2018.11.10-14.20.26:932][653]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Sloik_T7BA037B2415F903A04ECD4B4D184E87F.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_T.uasset'
+[2018.11.10-14.20.27:076][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Sloik_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_M.uasset" SILENT=true
+[2018.11.10-14.20.27:089][653]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Sloik_ME8E8483143116691B1622E86AA32EB91.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_M.uasset'
+[2018.11.10-14.20.42:835][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Sloik_TB" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_TB.uasset" SILENT=true
+[2018.11.10-14.20.43:029][196]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Sloik_TB8F0C346042063B709E48F19576AF4558.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_TB.uasset'
+[2018.11.10-14.20.43:242][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Sloik_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_M.uasset" SILENT=true
+[2018.11.10-14.20.43:251][196]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Sloik_ME198438C413DBD83647DE890B4FE9861.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_M.uasset'
+[2018.11.10-14.20.53:987][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Sloik_TG" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_TG.uasset" SILENT=true
+[2018.11.10-14.20.54:136][249]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Sloik_TG951C269A43470BCBF6883386702E8B7D.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_TG.uasset'
+[2018.11.10-14.20.54:372][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Sloik_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_M.uasset" SILENT=true
+[2018.11.10-14.20.54:386][249]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Sloik_M0CB0818F4DB01307B63728BDF4FF204D.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_M.uasset'
+[2018.11.10-14.21.34:213][480]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.10-14.21.34:262][481]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.10-14.21.34:263][481]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.10-14.21.34:263][481]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.10-14.21.34:263][481]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.10-14.21.48:158][152]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.10-14.22.00:599][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Sloik_Tszklo" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_Tszklo.uasset" SILENT=true
+[2018.11.10-14.22.00:617][320]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Sloik_TszkloE8E0A56D4D769FA6CDA3E2AE899A900A.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Sloik_Tszklo.uasset'
+[2018.11.10-14.22.08:197][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.22.11:173][314]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap3EE0512C452CF2D7A429008B8C4E649B.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.10-14.22.11:385][314]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_BuiltData7F0C758B42EF26E9729F07AD44D941AF.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.10-14.22.14:016][411]LogSlate: Window 'Save Content' being destroyed
+[2018.11.10-14.22.14:032][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/03_-_Default" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/03_-_Default.uasset" SILENT=true
+[2018.11.10-14.22.14:037][411]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/03_-_Default04386CC346FEAB3F53D2DC9768636F9D.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/03_-_Default.uasset'
+[2018.11.10-14.22.14:043][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Regal_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset" SILENT=true
+[2018.11.10-14.22.14:052][411]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Regal_ME4424B1B47E97C74BAFBE9B7D69D2EC7.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset'
+[2018.11.10-14.22.14:069][411]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/M_Glass7B03C8C34481370342243D97A3046F7D.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/StarterContent/Materials/M_Glass.uasset'
