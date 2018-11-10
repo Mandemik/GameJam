@@ -2,10 +2,11 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "CoreMinimal.h"	
 #include "Components/ActorComponent.h"
 #include "Components/AudioComponent.h"
 #include "PlayerInventory.generated.h"
+
 
 
 UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
@@ -22,7 +23,9 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
-	// Called every frame
+
+	UPROPERTY(EditAnywhere)
+		AActor * player = nullptr;
 
 	UPROPERTY(EditAnywhere)
 		UAudioComponent *audio = nullptr;

@@ -89,7 +89,7 @@ void ULightSwitch::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 			speedMoveX = -speedMoveX;
 		}
 		FVector newPos = lightPos + FVector(speedMoveX * DeltaTime, speedMoveY * DeltaTime, 0.f);
-		UE_LOG(LogTemp, Error, TEXT("Twoja pozycja to  w %s"), *newPos.ToString());
+		/*UE_LOG(LogTemp, Error, TEXT("Twoja pozycja to  w %s"), *newPos.ToString());*/
 		owner->SetActorLocation(newPos);
 	}
 }

@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TheNegatyw-8469.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\TheNegatywEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\Czernia.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\LightSwitch.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\PickableComponent.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\PlayerInventory.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\TheNegatyw.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\TheNegatywCharacter.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\TheNegatywGameMode.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\Czernia.gen.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\LightSwitch.gen.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\PickableComponent.gen.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\PlayerInventory.gen.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\TheNegatyw.init.gen.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\TheNegatywCharacter.gen.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\TheNegatywGameMode.gen.cpp.obj"
+"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\PCLaunch.rc.res"
+/OUT:"C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-8469.lib"

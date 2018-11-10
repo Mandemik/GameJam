@@ -1,9 +1,12 @@
     
 // Fill out your copyright notice in the Description page of Project Settings.
+
+#include "PlayerInventory.h"
 #include "Engine/World.h"
 #include "GameFramework/Controller.h"
+#include "Components/ActorComponent.h"
 #include "Components/AudioComponent.h"
-#include "PlayerInventory.h"
+
 
 
 // Sets default values for this component's properties
@@ -24,6 +27,9 @@ UPlayerInventory::UPlayerInventory()
 void UPlayerInventory::BeginPlay()
 {
 	Super::BeginPlay();
+
+	player = GetWorld()->GetFirstPlayerController()->GetPawn();
+
 	if (audio == nullptr)
 	{
 		FString ActorName = GetOwner()->GetName();
@@ -41,7 +47,11 @@ void UPlayerInventory::GrabObject()
 
 void UPlayerInventory::DropObject()
 {
-	GrabbingObject = false;
+	if (GrabbingObject)
+	{
+		GrabbingObject = false;
+		UE_LOG(LogTemp, Error, TEXT("Upusciles tasme"));
+	}
 }
 
 void UPlayerInventory::TakeDamage(float dmg)
@@ -49,8 +59,13 @@ void UPlayerInventory::TakeDamage(float dmg)
 	if (GrabbingObject && clipHP > 0.f)
 	{
 		audio->SetSound(damageClip);
-		audio->Play();
+		if (!audio->IsPlaying())
+		{
+			audio->Play();
+		}
 		clipHP -= dmg;
+		FString clipHPString = FString::SanitizeFloat(clipHP);
+		UE_LOG(LogTemp, Error, TEXT("Dostales w pierdol, zostalo ci  %s zycia"), *clipHPString);
 	}
 }
 

@@ -1,76 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\TheNegatyw.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{37B7C862-E35B-43F4-87AF-307F5009A283}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\TheNegatyw.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\TheNegatywEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{207DD3AE-F8A8-47AC-ABD1-2F9114823C55}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\TheNegatyw">
-			<UniqueIdentifier>{589D7EAD-72CE-4357-A6BD-06AE4FF54619}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\TheNegatyw\LightSwitch.cpp">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TheNegatyw\LightSwitch.h">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TheNegatyw\PickableComponent.cpp">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TheNegatyw\PickableComponent.h">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TheNegatyw\PlayerInventory.cpp">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TheNegatyw\PlayerInventory.h">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\TheNegatyw\TheNegatyw.Build.cs">
-			<Filter>Source\TheNegatyw</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\TheNegatyw\TheNegatyw.cpp">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TheNegatyw\TheNegatyw.h">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TheNegatyw\TheNegatywCharacter.cpp">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TheNegatyw\TheNegatywCharacter.h">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TheNegatyw\TheNegatywGameMode.cpp">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TheNegatyw\TheNegatywGameMode.h">
-			<Filter>Source\TheNegatyw</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\TheNegatyw.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{37B7C862-E35B-43F4-87AF-307F5009A283}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheNegatyw.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheNegatywEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{207DD3AE-F8A8-47AC-ABD1-2F9114823C55}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TheNegatyw">
+      <UniqueIdentifier>{589D7EAD-72CE-4357-A6BD-06AE4FF54619}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TheNegatyw\LightSwitch.cpp">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheNegatyw\LightSwitch.h">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheNegatyw\PickableComponent.cpp">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheNegatyw\PickableComponent.h">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheNegatyw\PlayerInventory.cpp">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheNegatyw\PlayerInventory.h">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TheNegatyw\TheNegatyw.Build.cs">
+      <Filter>Source\TheNegatyw</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheNegatyw\TheNegatyw.cpp">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheNegatyw\TheNegatyw.h">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheNegatyw\TheNegatywCharacter.cpp">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheNegatyw\TheNegatywCharacter.h">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheNegatyw\TheNegatywGameMode.cpp">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheNegatyw\TheNegatywGameMode.h">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TheNegatyw\Czernia.h">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TheNegatyw\Czernia.cpp">
+      <Filter>Source\TheNegatyw</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
