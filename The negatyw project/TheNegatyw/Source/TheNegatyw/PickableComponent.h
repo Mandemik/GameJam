@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Engine/TriggerVolume.h"
+#include "PlayerInventory.h"
 #include "PickableComponent.generated.h"
 
 
@@ -32,5 +33,8 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		AActor *player = nullptr;
+
+	UPROPERTY(EditAnywhere)
+		UPlayerInventory *inventory = nullptr;
 	
 };
