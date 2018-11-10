@@ -421,6 +421,8 @@
 		<None Include="..\..\Config\DefaultInput.ini" />
 		<ClCompile Include="..\..\Source\TheNegatyw\LightSwitch.cpp" />
 		<ClInclude Include="..\..\Source\TheNegatyw\LightSwitch.h" />
+		<ClCompile Include="..\..\Source\TheNegatyw\PickableComponent.cpp" />
+		<ClInclude Include="..\..\Source\TheNegatyw\PickableComponent.h" />
 		<None Include="..\..\Source\TheNegatyw\TheNegatyw.Build.cs" />
 		<ClCompile Include="..\..\Source\TheNegatyw\TheNegatyw.cpp" />
 		<ClInclude Include="..\..\Source\TheNegatyw\TheNegatyw.h" />
