@@ -58,7 +58,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPickableComponent); \
 
 
 #define TheNegatyw_Source_TheNegatyw_PickableComponent_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__pickUpZone() { return STRUCT_OFFSET(UPickableComponent, pickUpZone); }
+	FORCEINLINE static uint32 __PPO__pickUpZone() { return STRUCT_OFFSET(UPickableComponent, pickUpZone); } \
+	FORCEINLINE static uint32 __PPO__player() { return STRUCT_OFFSET(UPickableComponent, player); }
 
 
 #define TheNegatyw_Source_TheNegatyw_PickableComponent_h_11_PROLOG

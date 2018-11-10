@@ -29,5 +29,8 @@ private:
 
 	UPROPERTY(EditAnywhere)	
 		ATriggerVolume *pickUpZone = nullptr;
+
+	UPROPERTY(EditAnywhere)
+		AActor *player = nullptr;
 	
 };
