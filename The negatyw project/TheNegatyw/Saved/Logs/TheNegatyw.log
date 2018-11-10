@@ -1207,3 +1207,434 @@ LogInit: Object subsystem initialized
 [2018.11.10-14.22.14:043][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Regal_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset" SILENT=true
 [2018.11.10-14.22.14:052][411]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Regal_ME4424B1B47E97C74BAFBE9B7D69D2EC7.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset'
 [2018.11.10-14.22.14:069][411]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/M_Glass7B03C8C34481370342243D97A3046F7D.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/StarterContent/Materials/M_Glass.uasset'
+[2018.11.10-14.22.57:708][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sloik)
+[2018.11.10-14.23.41:064][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.32.11:439][485]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto6C6DC37674DBEA17CF66A41887BBD2C67.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2018.11.10-14.32.11:445][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.154
+[2018.11.10-14.32.11:445][485]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.154
+[2018.11.10-14.44.40:407][955]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\#FBX\rury.FBX)
+[2018.11.10-14.44.40:416][955]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\#FBX\rury.FBX
+[2018.11.10-14.44.40:422][955]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-14.44.44:021][955]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-14.44.44:045][955]LogStaticMesh: Building static mesh rury_Cylinder001...
+[2018.11.10-14.44.44:046][955]LogStaticMesh: Built static mesh [0.00s] /Game/Meshe/rury_Cylinder001.rury_Cylinder001
+[2018.11.10-14.44.44:047][955]LogStaticMesh: Warning: rury_Cylinder001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.11.10-14.44.44:047][955]LogStaticMesh: Warning: rury_Cylinder001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.11.10-14.44.44:056][955]LogStaticMesh: Building static mesh rury_Object002...
+[2018.11.10-14.44.44:057][955]LogStaticMesh: Built static mesh [0.00s] /Game/Meshe/rury_Object002.rury_Object002
+[2018.11.10-14.44.44:064][955]LogStaticMesh: Building static mesh rury_Object001...
+[2018.11.10-14.44.44:065][955]LogStaticMesh: Built static mesh [0.00s] /Game/Meshe/rury_Object001.rury_Object001
+[2018.11.10-14.44.44:072][955]LogStaticMesh: Building static mesh rury_Object004...
+[2018.11.10-14.44.44:073][955]LogStaticMesh: Built static mesh [0.00s] /Game/Meshe/rury_Object004.rury_Object004
+[2018.11.10-14.44.44:080][955]LogStaticMesh: Building static mesh rury_Object003...
+[2018.11.10-14.44.44:082][955]LogStaticMesh: Built static mesh [0.00s] /Game/Meshe/rury_Object003.rury_Object003
+[2018.11.10-14.44.44:091][955]LogStaticMesh: Building static mesh rury_Cylinder003...
+[2018.11.10-14.44.44:093][955]LogStaticMesh: Built static mesh [0.00s] /Game/Meshe/rury_Cylinder003.rury_Cylinder003
+[2018.11.10-14.44.44:103][955]FBXImport: Warning: rury_Cylinder001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.11.10-14.44.44:103][955]FBXImport: Warning: rury_Cylinder001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.11.10-14.44.47:747][266]LogSlate: Window 'Message Log' being destroyed
+[2018.11.10-14.44.47:751][266]LogSlate: Window 'Message Log' being destroyed
+[2018.11.10-14.44.55:606][865]LogActorFactory: Actor Factory created rury_Cylinder003
+[2018.11.10-14.44.56:838][989]LogActorFactory: Actor Factory created rury_Cylinder003
+[2018.11.10-14.45.03:028][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.45.04:253][772]LogActorFactory: Actor Factory created rury_Object002
+[2018.11.10-14.45.04:254][772]LogActorFactory: Actor Factory created rury_Object001
+[2018.11.10-14.45.04:624][808]LogActorFactory: Actor Factory created rury_Object002
+[2018.11.10-14.45.04:644][808]LogActorFactory: Actor Factory created rury_Object001
+[2018.11.10-14.45.06:171][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.45.07:212][ 25]LogActorFactory: Actor Factory created rury_Object003
+[2018.11.10-14.45.07:213][ 25]LogActorFactory: Actor Factory created rury_Object004
+[2018.11.10-14.45.09:178][215]LogActorFactory: Actor Factory created rury_Object003
+[2018.11.10-14.45.09:197][215]LogActorFactory: Actor Factory created rury_Object004
+[2018.11.10-14.45.10:741][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-14.45.11:197][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rury_Object004)
+[2018.11.10-14.45.12:162][535]Cmd: DELETE
+[2018.11.10-14.45.12:162][535]Cmd: ACTOR DELETE
+[2018.11.10-14.45.12:164][535]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-14.45.12:190][535]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.11.10-14.45.12:723][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rury_Object003)
+[2018.11.10-14.45.12:923][612]Cmd: DELETE
+[2018.11.10-14.45.12:923][612]Cmd: ACTOR DELETE
+[2018.11.10-14.45.12:926][612]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-14.45.12:951][612]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.11.10-14.45.13:396][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rury_Cylinder003)
+[2018.11.10-14.45.13:794][703]Cmd: DELETE
+[2018.11.10-14.45.13:794][703]Cmd: ACTOR DELETE
+[2018.11.10-14.45.13:797][703]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-14.45.13:824][703]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.11.10-14.45.14:201][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rury_Object001)
+[2018.11.10-14.45.14:561][782]Cmd: DELETE
+[2018.11.10-14.45.14:561][782]Cmd: ACTOR DELETE
+[2018.11.10-14.45.14:563][782]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-14.45.14:588][782]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2018.11.10-14.45.14:858][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rury_Object002)
+[2018.11.10-14.45.15:000][822]Cmd: DELETE
+[2018.11.10-14.45.15:000][822]Cmd: ACTOR DELETE
+[2018.11.10-14.45.15:002][822]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-14.45.15:026][822]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2018.11.10-14.45.15:767][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-14.45.38:496][259]LogActorFactory: Actor Factory created rury_Cylinder001
+[2018.11.10-14.45.38:756][283]LogActorFactory: Actor Factory created rury_Cylinder001
+[2018.11.10-14.46.49:593][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-14.46.49:827][214]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto738569C4C4EECEDE5EA846E9972EF85C8.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto7.umap'
+[2018.11.10-14.46.49:833][214]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.208
+[2018.11.10-14.46.49:833][214]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.208
+[2018.11.10-14.46.49:836][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/rury_Cylinder001] ([1] browsable assets)...
+[2018.11.10-14.46.49:850][214]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshe/rury_Cylinder001.rury_Cylinder001]
+[2018.11.10-14.46.49:850][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/rury_Cylinder001]
+[2018.11.10-14.46.49:867][214]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/rury_Cylinder001_Auto712A481BC494CFCA2842DEE8573C9FBE2.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/rury_Cylinder001_Auto7.uasset'
+[2018.11.10-14.46.49:873][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/rury_Object002] ([1] browsable assets)...
+[2018.11.10-14.46.49:890][214]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshe/rury_Object002.rury_Object002]
+[2018.11.10-14.46.49:890][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/rury_Object002]
+[2018.11.10-14.46.49:908][214]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/rury_Object002_Auto7CD4148E64535E7DA3DF909B75281010E.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/rury_Object002_Auto7.uasset'
+[2018.11.10-14.46.49:913][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/rury_Object001] ([1] browsable assets)...
+[2018.11.10-14.46.49:929][214]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshe/rury_Object001.rury_Object001]
+[2018.11.10-14.46.49:929][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/rury_Object001]
+[2018.11.10-14.46.49:950][214]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/rury_Object001_Auto7BAF5413548468106D8BDEFAFFDE4899C.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/rury_Object001_Auto7.uasset'
+[2018.11.10-14.46.49:956][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/rury_Object004] ([1] browsable assets)...
+[2018.11.10-14.46.49:973][214]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshe/rury_Object004.rury_Object004]
+[2018.11.10-14.46.49:973][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/rury_Object004]
+[2018.11.10-14.46.49:990][214]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/rury_Object004_Auto7E7A720AC473F412AE76817A7229F9005.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/rury_Object004_Auto7.uasset'
+[2018.11.10-14.46.49:996][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/rury_Object003] ([1] browsable assets)...
+[2018.11.10-14.46.50:010][214]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshe/rury_Object003.rury_Object003]
+[2018.11.10-14.46.50:010][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/rury_Object003]
+[2018.11.10-14.46.50:025][214]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/rury_Object003_Auto7867D33CB445C028C91E12BA2D811431B.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/rury_Object003_Auto7.uasset'
+[2018.11.10-14.46.50:030][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/rury_Cylinder003] ([1] browsable assets)...
+[2018.11.10-14.46.50:043][214]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshe/rury_Cylinder003.rury_Cylinder003]
+[2018.11.10-14.46.50:043][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/rury_Cylinder003]
+[2018.11.10-14.46.50:062][214]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/rury_Cylinder003_Auto7640FF13542E0BDFF6F524B8A2E2AB947.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/rury_Cylinder003_Auto7.uasset'
+[2018.11.10-14.46.50:066][214]LogFileHelpers: Auto-saving content packages took 0.231
+[2018.11.10-14.55.24:178][736]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.10-14.56.50:393][134]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto87E759DF54BB5696ACF89E6BBC2518386.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto8.umap'
+[2018.11.10-14.56.50:398][134]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.128
+[2018.11.10-14.56.50:398][134]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.128
+[2018.11.10-14.58.43:437][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-15.53.37:228][860]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\#FBX\lozko.FBX)
+[2018.11.10-15.53.37:244][860]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\#FBX\lozko.FBX
+[2018.11.10-15.53.37:316][860]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-15.53.41:976][860]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-15.53.42:002][860]LogLinker: Can't find file '/Game/Meshe/Old_Wood_001_COLOR'
+[2018.11.10-15.53.42:002][860]LogLinker: Can't find file '/Game/Meshe/Old_Wood_001_COLOR'
+[2018.11.10-15.53.42:032][860]LogTexture: Display: Building textures: Old_Wood_001_COLOR (BGRA8, 1025X1025)
+[2018.11.10-15.53.42:066][860]LogLinker: Can't find file '/Game/Meshe/Old_Wood_001_NORM'
+[2018.11.10-15.53.42:066][860]LogLinker: Can't find file '/Game/Meshe/Old_Wood_001_NORM'
+[2018.11.10-15.53.42:100][860]LogTexture: Display: Building textures: Old_Wood_001_NORM (BGRA8, 1025X1025)
+[2018.11.10-15.53.42:127][860]LogMaterial: Display: Missing cached shader map for material 07_-_Default, compiling. 
+[2018.11.10-15.53.42:158][860]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.10-15.53.42:158][860]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.10-15.53.42:158][860]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-15.53.42:162][860]LogTexture: Display: Building textures: Metal_Steel_Brushed_001_diffuse (AutoDXT, 1024X1024)
+[2018.11.10-15.53.42:246][860]LogMaterial: Display: Missing cached shader map for material 08_-_Default, compiling. 
+[2018.11.10-15.53.42:264][860]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.10-15.53.42:277][860]LogLinker: Can't find file '/Game/Meshe/Quilt_001_COLOR'
+[2018.11.10-15.53.42:277][860]LogLinker: Can't find file '/Game/Meshe/Quilt_001_COLOR'
+[2018.11.10-15.53.42:328][860]LogTexture: Display: Building textures: Quilt_001_COLOR (BGRA8, 1025X1025)
+[2018.11.10-15.53.42:371][860]LogLinker: Can't find file '/Game/Meshe/Quilt_001_OCC'
+[2018.11.10-15.53.42:371][860]LogLinker: Can't find file '/Game/Meshe/Quilt_001_OCC'
+[2018.11.10-15.53.42:390][860]LogTexture: Display: Building textures: Quilt_001_OCC (AutoDXT, 1024X1024)
+[2018.11.10-15.53.42:504][860]LogLinker: Can't find file '/Game/Meshe/Quilt_001_NORM'
+[2018.11.10-15.53.42:504][860]LogLinker: Can't find file '/Game/Meshe/Quilt_001_NORM'
+[2018.11.10-15.53.42:534][860]LogTexture: Display: Building textures: Quilt_001_NORM (BC5, 1024X1024)
+[2018.11.10-15.53.42:614][860]LogMaterial: Display: Missing cached shader map for material 02_-_Default, compiling. 
+[2018.11.10-15.53.43:606][860]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.10-15.53.43:610][860]LogLinker: Can't find file '/Game/Meshe/Fabric_005_COLOR'
+[2018.11.10-15.53.43:611][860]LogLinker: Can't find file '/Game/Meshe/Fabric_005_COLOR'
+[2018.11.10-15.53.43:665][860]LogTexture: Display: Building textures: Fabric_005_COLOR (AutoDXT, 1024X1024)
+[2018.11.10-15.53.44:198][860]LogLinker: Can't find file '/Game/Meshe/Fabric_005_DISP'
+[2018.11.10-15.53.44:199][860]LogLinker: Can't find file '/Game/Meshe/Fabric_005_DISP'
+[2018.11.10-15.53.44:235][860]LogTexture: Display: Building textures: Fabric_005_DISP (AutoDXT, 1024X1024)
+[2018.11.10-15.53.44:316][860]LogLinker: Can't find file '/Game/Meshe/Fabric_005_NORM'
+[2018.11.10-15.53.44:316][860]LogLinker: Can't find file '/Game/Meshe/Fabric_005_NORM'
+[2018.11.10-15.53.44:385][860]LogTexture: Display: Building textures: Fabric_005_NORM (BC5, 1024X1024)
+[2018.11.10-15.53.44:482][860]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.11.10-15.53.45:687][860]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.10-15.53.45:687][860]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.10-15.53.45:687][860]LogStaticMesh: Building static mesh lozko...
+[2018.11.10-15.53.47:919][860]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.10-15.53.47:919][860]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.10-15.53.47:919][860]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.10-15.53.47:919][860]LogStaticMesh: Built static mesh [2.23s] /Game/Meshe/lozko.lozko
+[2018.11.10-15.53.53:023][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.055
+[2018.11.10-15.53.53:027][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/02_-_Default] ([1] browsable assets)...
+[2018.11.10-15.53.53:040][ 97]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshe/02_-_Default.02_-_Default]
+[2018.11.10-15.53.53:040][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/02_-_Default]
+[2018.11.10-15.53.53:058][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/02_-_Default_Auto958F9744E41A77E0F260BE8A7186D9BB0.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/02_-_Default_Auto9.uasset'
+[2018.11.10-15.53.53:063][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/lozko] ([1] browsable assets)...
+[2018.11.10-15.53.53:076][ 97]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshe/lozko.lozko]
+[2018.11.10-15.53.53:076][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/lozko]
+[2018.11.10-15.53.53:104][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/lozko_Auto99465C9B34E3474DF0706B8BD34294BCF.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/lozko_Auto9.uasset'
+[2018.11.10-15.53.53:109][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/07_-_Default] ([1] browsable assets)...
+[2018.11.10-15.53.53:120][ 97]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshe/07_-_Default.07_-_Default]
+[2018.11.10-15.53.53:121][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/07_-_Default]
+[2018.11.10-15.53.53:135][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/07_-_Default_Auto92812073441B448046EAC8BA984990D73.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/07_-_Default_Auto9.uasset'
+[2018.11.10-15.53.53:139][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Old_Wood_001_COLOR] ([1] browsable assets)...
+[2018.11.10-15.53.53:146][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Old_Wood_001_COLOR.Old_Wood_001_COLOR]
+[2018.11.10-15.53.53:146][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Old_Wood_001_COLOR]
+[2018.11.10-15.53.53:161][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Old_Wood_001_COLOR_Auto9A51F1EFE4EE9E540C115A68AF6BB59A8.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Old_Wood_001_COLOR_Auto9.uasset'
+[2018.11.10-15.53.53:167][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Old_Wood_001_NORM] ([1] browsable assets)...
+[2018.11.10-15.53.53:175][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Old_Wood_001_NORM.Old_Wood_001_NORM]
+[2018.11.10-15.53.53:175][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Old_Wood_001_NORM]
+[2018.11.10-15.53.53:194][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Old_Wood_001_NORM_Auto95E9BBD574A203F5F440505B6996FECCA.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Old_Wood_001_NORM_Auto9.uasset'
+[2018.11.10-15.53.53:198][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/08_-_Default] ([1] browsable assets)...
+[2018.11.10-15.53.53:210][ 97]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshe/08_-_Default.08_-_Default]
+[2018.11.10-15.53.53:210][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/08_-_Default]
+[2018.11.10-15.53.53:222][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/08_-_Default_Auto9D1EBA58A4EB2FAFD65F137AF2503BF8D.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/08_-_Default_Auto9.uasset'
+[2018.11.10-15.53.53:227][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Metal_Steel_Brushed_001_diffuse] ([1] browsable assets)...
+[2018.11.10-15.53.53:233][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Metal_Steel_Brushed_001_diffuse.Metal_Steel_Brushed_001_diffuse]
+[2018.11.10-15.53.53:233][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Metal_Steel_Brushed_001_diffuse]
+[2018.11.10-15.53.53:242][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Metal_Steel_Brushed_001_diffuse_B8E6E7A748CA9117C8EBFD83EADB9CC9.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Metal_Steel_Brushed_001_diffuse_Auto9.uasset'
+[2018.11.10-15.53.53:246][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Quilt_001_COLOR] ([1] browsable assets)...
+[2018.11.10-15.53.53:253][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Quilt_001_COLOR.Quilt_001_COLOR]
+[2018.11.10-15.53.53:253][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Quilt_001_COLOR]
+[2018.11.10-15.53.53:269][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Quilt_001_COLOR_Auto9DFFB75CE48D3D8CD02E4868B697593CF.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Quilt_001_COLOR_Auto9.uasset'
+[2018.11.10-15.53.53:273][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Quilt_001_OCC] ([1] browsable assets)...
+[2018.11.10-15.53.53:280][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Quilt_001_OCC.Quilt_001_OCC]
+[2018.11.10-15.53.53:280][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Quilt_001_OCC]
+[2018.11.10-15.53.53:290][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Quilt_001_OCC_Auto92CE375444E8234E6306908A2FC94EED9.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Quilt_001_OCC_Auto9.uasset'
+[2018.11.10-15.53.53:294][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Quilt_001_NORM] ([1] browsable assets)...
+[2018.11.10-15.53.53:301][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Quilt_001_NORM.Quilt_001_NORM]
+[2018.11.10-15.53.53:301][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Quilt_001_NORM]
+[2018.11.10-15.53.53:315][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Quilt_001_NORM_Auto916A8D49F45D13A9C69445AAB1FDF74C2.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Quilt_001_NORM_Auto9.uasset'
+[2018.11.10-15.53.53:319][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/01_-_Default] ([1] browsable assets)...
+[2018.11.10-15.53.53:331][ 97]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshe/01_-_Default.01_-_Default]
+[2018.11.10-15.53.53:331][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/01_-_Default]
+[2018.11.10-15.53.53:345][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/01_-_Default_Auto9BD39708848C6C576E3FBD28ED19B253F.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/01_-_Default_Auto9.uasset'
+[2018.11.10-15.53.53:349][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Fabric_005_COLOR] ([1] browsable assets)...
+[2018.11.10-15.53.53:355][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Fabric_005_COLOR.Fabric_005_COLOR]
+[2018.11.10-15.53.53:355][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Fabric_005_COLOR]
+[2018.11.10-15.53.53:368][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Fabric_005_COLOR_Auto91F3869FF4E1E042F19BD3E9AC862A482.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Fabric_005_COLOR_Auto9.uasset'
+[2018.11.10-15.53.53:372][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Fabric_005_DISP] ([1] browsable assets)...
+[2018.11.10-15.53.53:378][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Fabric_005_DISP.Fabric_005_DISP]
+[2018.11.10-15.53.53:378][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Fabric_005_DISP]
+[2018.11.10-15.53.53:386][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Fabric_005_DISP_Auto962AF4DC943826D181BDF6382FD49A539.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Fabric_005_DISP_Auto9.uasset'
+[2018.11.10-15.53.53:391][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Fabric_005_NORM] ([1] browsable assets)...
+[2018.11.10-15.53.53:399][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Fabric_005_NORM.Fabric_005_NORM]
+[2018.11.10-15.53.53:399][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Fabric_005_NORM]
+[2018.11.10-15.53.53:414][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Fabric_005_NORM_Auto90F053CF84BA296981189749CFA38D7C4.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Fabric_005_NORM_Auto9.uasset'
+[2018.11.10-15.53.53:417][ 97]LogFileHelpers: Auto-saving content packages took 0.392
+[2018.11.10-15.53.54:746][236]LogActorFactory: Actor Factory created lozko
+[2018.11.10-15.53.56:013][372]LogActorFactory: Actor Factory created lozko
+[2018.11.10-15.53.59:287][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-15.54.13:070][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lozko)
+[2018.11.10-15.54.15:928][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-15.54.24:183][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-15.54.48:257][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-15.54.50:116][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lozko)
+[2018.11.10-15.54.55:382][877]Cmd: TRANSACTION UNDO
+[2018.11.10-15.54.55:383][877]LogEditorTransaction: Undo Scale Actors
+[2018.11.10-15.54.56:438][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-15.54.57:084][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lozko)
+[2018.11.10-15.54.58:184][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-15.54.58:265][180]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.10-15.54.58:278][180]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.54.58:278][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.10-15.54.58:292][180]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 17:54:58)
+[2018.11.10-15.54.58:292][180]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.10-15.54.58:312][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019766s)
+[2018.11.10-15.54.58:313][180]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.10-15.54.58:313][180]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2018.11.10-15.54.58:314][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021314s)
+[2018.11.10-15.54.58:372][180]LogInit: XAudio2 using 'Headset (Sound Blaster Tactic3D Fury)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.10-15.54.58:396][180]LogInit: FAudioDevice initialized.
+[2018.11.10-15.54.58:446][180]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.10-15.54.58:456][180]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-16.54.58
+[2018.11.10-15.54.58:458][180]LogWorld: Bringing up level for play took: 0.004955
+[2018.11.10-15.54.58:508][180]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 10 classes and 0 folders.
+[2018.11.10-15.54.58:518][180]LogTemp: Error: Odnaleziono Light Component
+[2018.11.10-15.54.58:518][180]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,663
+[2018.11.10-15.54.58:518][180]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.55.04:410][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.55.04:410][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-15.55.04:443][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.10-15.55.04:443][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.55.04:466][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-15.55.04:517][878]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.10-15.55.05:055][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lozko)
+[2018.11.10-15.55.12:241][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-15.55.12:882][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lozko)
+[2018.11.10-15.55.20:723][735]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-15.55.20:789][743]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.10-15.55.20:799][743]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.55.20:799][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.10-15.55.20:800][743]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 17:55:20)
+[2018.11.10-15.55.20:800][743]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.10-15.55.20:814][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014253s)
+[2018.11.10-15.55.20:815][743]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.10-15.55.20:815][743]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2018.11.10-15.55.20:815][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015437s)
+[2018.11.10-15.55.20:878][743]LogInit: XAudio2 using 'Headset (Sound Blaster Tactic3D Fury)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.10-15.55.20:900][743]LogInit: FAudioDevice initialized.
+[2018.11.10-15.55.20:932][743]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.10-15.55.20:934][743]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-16.55.20
+[2018.11.10-15.55.20:934][743]LogWorld: Bringing up level for play took: 0.001173
+[2018.11.10-15.55.20:948][743]LogTemp: Error: Odnaleziono Light Component
+[2018.11.10-15.55.20:948][743]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,233
+[2018.11.10-15.55.20:948][743]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.55.56:554][  5]LogTemp: Error: Wlazles W trigger
+[2018.11.10-15.56.33:989][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.56.33:989][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-15.56.34:023][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.10-15.56.34:023][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.56.34:046][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-15.56.34:093][496]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.10-15.56.45:275][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lozko)
+[2018.11.10-15.57.15:671][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-15.57.15:704][376]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.10-15.57.15:715][376]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.57.15:715][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.10-15.57.15:715][376]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 17:57:15)
+[2018.11.10-15.57.15:715][376]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.10-15.57.15:735][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019369s)
+[2018.11.10-15.57.15:736][376]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.10-15.57.15:736][376]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2018.11.10-15.57.15:736][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020439s)
+[2018.11.10-15.57.15:794][376]LogInit: XAudio2 using 'Headset (Sound Blaster Tactic3D Fury)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.10-15.57.15:815][376]LogInit: FAudioDevice initialized.
+[2018.11.10-15.57.15:846][376]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.10-15.57.15:849][376]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-16.57.15
+[2018.11.10-15.57.15:849][376]LogWorld: Bringing up level for play took: 0.001521
+[2018.11.10-15.57.15:863][376]LogTemp: Error: Odnaleziono Light Component
+[2018.11.10-15.57.15:863][376]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,682
+[2018.11.10-15.57.15:863][376]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.57.42:442][559]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.57.42:442][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-15.57.42:478][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.10-15.57.42:479][559]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.57.42:500][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-15.57.42:545][563]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.10-15.58.04:840][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-15.58.04:915][181]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.10-15.58.04:926][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.58.04:926][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.10-15.58.04:927][181]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 17:58:04)
+[2018.11.10-15.58.04:927][181]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.10-15.58.04:944][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016872s)
+[2018.11.10-15.58.04:944][181]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.10-15.58.04:945][181]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2018.11.10-15.58.04:945][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018392s)
+[2018.11.10-15.58.04:999][181]LogInit: XAudio2 using 'Headset (Sound Blaster Tactic3D Fury)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.10-15.58.05:017][181]LogInit: FAudioDevice initialized.
+[2018.11.10-15.58.05:053][181]LogLoad: Game class is 'TheNegatywGameMode'
+[2018.11.10-15.58.05:055][181]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-16.58.05
+[2018.11.10-15.58.05:055][181]LogWorld: Bringing up level for play took: 0.001461
+[2018.11.10-15.58.05:069][181]LogTemp: Error: Odnaleziono Light Component
+[2018.11.10-15.58.05:069][181]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,112
+[2018.11.10-15.58.05:069][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.58.11:213][912]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.58.11:213][912]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-15.58.11:251][912]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.10-15.58.11:252][912]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.10-15.58.11:302][912]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-15.58.11:334][913]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.10-15.58.12:444][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-16.05.46:166][750]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto01B52D248466206BC97C629BFD48FBBE2.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto0.umap'
+[2018.11.10-16.05.46:171][750]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.156
+[2018.11.10-16.05.46:172][750]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.156
+[2018.11.10-16.27.08:370][864]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\#FBX\klisza.FBX)
+[2018.11.10-16.27.08:379][864]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\#FBX\klisza.FBX
+[2018.11.10-16.27.08:387][864]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-16.27.11:198][864]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-16.27.11:224][864]LogStaticMesh: Building static mesh klisza...
+[2018.11.10-16.27.11:240][864]LogStaticMesh: Built static mesh [0.02s] /Game/Meshe/klisza.klisza
+[2018.11.10-16.27.12:704][977]LogActorFactory: Actor Factory created klisza
+[2018.11.10-16.27.15:360][288]LogActorFactory: Actor Factory created klisza
+[2018.11.10-16.27.56:876][585]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto13C4449754AA808C16DBA3FAD561BF80A.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.11.10-16.27.56:883][585]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.144
+[2018.11.10-16.27.56:883][585]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.144
+[2018.11.10-16.27.56:885][585]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/klisza] ([1] browsable assets)...
+[2018.11.10-16.27.56:916][585]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshe/klisza.klisza]
+[2018.11.10-16.27.56:916][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/klisza]
+[2018.11.10-16.27.56:928][585]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/klisza_Auto1058BBFE84B620CF730E9948D132FF3F2.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/klisza_Auto1.uasset'
+[2018.11.10-16.27.56:930][585]LogFileHelpers: Auto-saving content packages took 0.047
+[2018.11.10-16.28.42:261][722]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-16.28.46:068][879]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.10-16.28.55:222][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-16.29.00:077][ 22]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\#FBX\KLisza POP.FBX)
+[2018.11.10-16.29.00:089][ 22]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\#FBX\KLisza POP.FBX
+[2018.11.10-16.29.00:097][ 22]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-16.29.02:843][ 22]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-16.29.02:867][ 22]LogStaticMesh: Building static mesh KLisza_POP...
+[2018.11.10-16.29.02:884][ 22]LogStaticMesh: Built static mesh [0.02s] /Game/Meshe/KLisza_POP.KLisza_POP
+[2018.11.10-16.29.05:694][261]Cmd: TRANSACTION UNDO
+[2018.11.10-16.29.05:694][261]LogEditorTransaction: Undo Create Actors
+[2018.11.10-16.29.15:176][ 13]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.10-16.29.23:578][695]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.10-16.29.25:482][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-16.29.32:146][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sloik)
+[2018.11.10-16.29.33:268][729]Cmd: DELETE
+[2018.11.10-16.29.33:268][729]Cmd: ACTOR DELETE
+[2018.11.10-16.29.33:271][729]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-16.29.33:291][729]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.11.10-16.29.33:861][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (regal)
+[2018.11.10-16.29.34:317][845]Cmd: DELETE
+[2018.11.10-16.29.34:317][845]Cmd: ACTOR DELETE
+[2018.11.10-16.29.34:319][845]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-16.29.34:340][845]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.11.10-16.29.34:922][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lozko)
+[2018.11.10-16.29.35:321][954]Cmd: DELETE
+[2018.11.10-16.29.35:321][954]Cmd: ACTOR DELETE
+[2018.11.10-16.29.35:323][954]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-16.29.35:346][954]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.11.10-16.29.38:033][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-16.29.47:062][645]LogAssetTools: Warning: Failed to import 'C:\Users\Trojan\Desktop\Modele\#Modele\klisza POP.max'. Unknown extension 'max'.
+[2018.11.10-16.29.54:080][679]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\#FBX\KLisza POP.FBX)
+[2018.11.10-16.29.54:089][679]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\#FBX\KLisza POP.FBX
+[2018.11.10-16.29.54:097][679]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-16.29.59:314][679]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-16.29.59:340][679]LogStaticMesh: Building static mesh KLisza_POP...
+[2018.11.10-16.29.59:356][679]LogStaticMesh: Built static mesh [0.02s] /Game/Meshe/KLisza_POP.KLisza_POP
+[2018.11.10-16.30.01:371][842]LogActorFactory: Actor Factory created KLisza_POP
+[2018.11.10-16.30.01:749][883]LogActorFactory: Actor Factory created KLisza_POP
+[2018.11.10-16.30.02:484][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-16.30.11:739][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KLisza_POP)
+[2018.11.10-16.30.12:713][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-16.30.15:066][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-16.30.33:520][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-16.31.06:449][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/lozko" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/lozko.uasset" SILENT=true
+[2018.11.10-16.31.06:475][471]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/lozkoFE22078A445AE94346C9A69BF82A844B.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/lozko.uasset'
+[2018.11.10-16.31.13:859][165]LogMetaData: Removing '/Game/Meshe/Klisza.Klisza' ref from Metadata '/Game/Meshe/KLisza_POP.PackageMetaData'
+[2018.11.10-16.31.13:891][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Klisza" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Klisza.uasset" SILENT=true
+[2018.11.10-16.31.13:909][165]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Klisza01AC96B34D6B2ABBB90F21A88917480B.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Klisza.uasset'
+[2018.11.10-16.31.27:992][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Lozko_T" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lozko_T.uasset" SILENT=true
+[2018.11.10-16.31.28:144][474]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Lozko_TA0643F2D407949CAB952269ABFB379A2.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lozko_T.uasset'
+[2018.11.10-16.31.35:034][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Lokzko_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lokzko_M.uasset" SILENT=true
+[2018.11.10-16.31.35:053][ 87]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Lokzko_M1D74038F43B1D9B8920F8E9DC9BE322B.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lokzko_M.uasset'
+[2018.11.10-16.31.35:197][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/lozko" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/lozko.uasset" SILENT=true
+[2018.11.10-16.31.35:247][ 87]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/lozko3F7908584E3C5D7B13E0CBA68A28F359.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/lozko.uasset'
+[2018.11.10-16.31.35:255][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Klisza" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Klisza.uasset" SILENT=true
+[2018.11.10-16.31.35:266][ 87]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/KliszaC55BE27047876DF460DBE09AEA43A257.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Klisza.uasset'
+[2018.11.10-16.31.40:476][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Poduszka_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Poduszka_M.uasset" SILENT=true
+[2018.11.10-16.31.40:493][572]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Poduszka_M15CA59014F3113184411F3AF70BA04A3.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Poduszka_M.uasset'
+[2018.11.10-16.31.40:635][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/lozko" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/lozko.uasset" SILENT=true
+[2018.11.10-16.31.40:661][572]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/lozkoD55DC17346948B3B5A7F338603E5B935.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/lozko.uasset'
+[2018.11.10-16.31.40:669][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Klisza" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Klisza.uasset" SILENT=true
+[2018.11.10-16.31.40:679][572]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/KliszaFB441F5341220A627C092DA4EA62ED71.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Klisza.uasset'
+[2018.11.10-16.31.51:266][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/NogiLozko_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/NogiLozko_M.uasset" SILENT=true
+[2018.11.10-16.31.51:292][574]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/NogiLozko_MCC12AE4C4A23B71468F7CE99F5932C1D.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/NogiLozko_M.uasset'
+[2018.11.10-16.31.51:461][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/lozko" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/lozko.uasset" SILENT=true
+[2018.11.10-16.31.51:495][574]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/lozko201BA2A647DF9CAADCA78EA4C3F74C04.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/lozko.uasset'
+[2018.11.10-16.32.08:046][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Lozko_TL" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lozko_TL.uasset" SILENT=true
+[2018.11.10-16.32.08:099][126]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Lozko_TL7BE9DFFF403E455E9E79B4927C44CCA5.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lozko_TL.uasset'
+[2018.11.10-16.32.08:248][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Lokzko_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lokzko_M.uasset" SILENT=true
+[2018.11.10-16.32.08:261][126]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Lokzko_M93C8D15B4FE6A78B6A79D1BF1D610800.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lokzko_M.uasset'
+[2018.11.10-16.32.14:327][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Lozko_TB" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lozko_TB.uasset" SILENT=true
+[2018.11.10-16.32.14:583][689]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Lozko_TB2A86DF9049C70AB3AC8AC7A73847368E.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lozko_TB.uasset'
+[2018.11.10-16.32.14:722][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Lokzko_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lokzko_M.uasset" SILENT=true
+[2018.11.10-16.32.14:732][689]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Lokzko_M754F10C846626637089047B5997793F6.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Lokzko_M.uasset'
+[2018.11.10-16.32.25:482][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-16.32.25:740][741]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap9B01560342E3FB767C52E8A8A33B5DFF.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.10-16.32.25:956][741]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_BuiltData2A15227E44897F2D6F3B7A9CA358B091.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.11.10-16.32.32:606][849]LogSlate: Window 'Save Content' being destroyed
+[2018.11.10-16.32.32:621][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/08_-_Default" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/08_-_Default.uasset" SILENT=true
+[2018.11.10-16.32.32:626][849]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/08_-_Default28FDB1D447535304AD330DB09E3ECE98.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/08_-_Default.uasset'
+[2018.11.10-16.32.32:675][849]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Metal_Steel_Brushed_001_diffuse259691E54B34AD00A4823BBCD84ADD03.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Metal_Steel_Brushed_001_diffuse.uasset'
+[2018.11.10-16.32.32:681][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Old_Wood_001_COLOR" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Old_Wood_001_COLOR.uasset" SILENT=true
+[2018.11.10-16.32.32:795][849]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Old_Wood_001_COLOR54EBE6444B907BC630D16F86FB894E7C.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Old_Wood_001_COLOR.uasset'
+[2018.11.10-16.32.32:803][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Old_Wood_001_NORM" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Old_Wood_001_NORM.uasset" SILENT=true
+[2018.11.10-16.32.32:993][849]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Old_Wood_001_NORMC24F6EE240E334415D98269C2C4A414B.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Old_Wood_001_NORM.uasset'
+[2018.11.10-16.32.33:000][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Quilt_001_COLOR" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Quilt_001_COLOR.uasset" SILENT=true
+[2018.11.10-16.32.33:137][849]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Quilt_001_COLOR84563A474806DE2166169FB1F8603ACB.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Quilt_001_COLOR.uasset'
+[2018.11.10-16.32.33:144][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Quilt_001_NORM" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Quilt_001_NORM.uasset" SILENT=true
+[2018.11.10-16.32.33:267][849]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Quilt_001_NORM6C44B4FB4EE1D9C26A8E1595759E660A.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Quilt_001_NORM.uasset'
+[2018.11.10-16.32.33:274][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Quilt_001_OCC" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Quilt_001_OCC.uasset" SILENT=true
+[2018.11.10-16.32.33:334][849]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Quilt_001_OCCCA9EBCDC45BDFCEDE899F5B007AA33C7.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Quilt_001_OCC.uasset'
