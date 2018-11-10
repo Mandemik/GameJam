@@ -19,45 +19,85 @@ ULightSwitch::ULightSwitch()
 void ULightSwitch::BeginPlay()
 {
 	Super::BeginPlay();
+
 	SetupLightComponent();
 
+	player = GetWorld()->GetFirstPlayerController()->GetPawn();
 
 	timeFromLastSwitch = GetWorld()->GetTimeSeconds();
 	// ...
-	
+
 }
 
 
 // Called every frame
 void ULightSwitch::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
+
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (!isOn && GetWorld()->GetTimeSeconds() > timeFromLastSwitch + timeLightOf)
+	if (SwitingLight) 
 	{
-		if (GetWorld()->GetTimeSeconds() > timeFromLastSwitch + timeLightOf)
+		if (!isOn && GetWorld()->GetTimeSeconds() > timeFromLastSwitch + timeLightOf)
 		{
-			isOn = true;
-			lightCompnent->SetIntensity(lightIntenisty);
-			timeFromLastSwitch = GetWorld()->GetTimeSeconds();
+			if (GetWorld()->GetTimeSeconds() > timeFromLastSwitch + timeLightOf)
+			{
+				isOn = true;
+				lightCompnent->SetIntensity(lightIntenisty);
+				timeFromLastSwitch = GetWorld()->GetTimeSeconds();
+			}
 		}
+		else if (isOn)
+		{
+			if (damageZone->IsOverlappingActor(player))
+			{
+				player->FindComponentByClass<UPlayerInventory>()->TakeDamage(lightDamage*DeltaTime);
+			}
+			if (GetWorld()->GetTimeSeconds() > timeLightOn + timeFromLastSwitch)
+			{
+				isOn = false;
+				lightCompnent->SetIntensity(0.f);
+				timeFromLastSwitch = GetWorld()->GetTimeSeconds();
+			}
+		}
+
 	}
-	else if (isOn)
+
+
+	if (movableObject)
 	{
-		if (GetWorld()->GetTimeSeconds() > timeLightOn + timeFromLastSwitch)
+		FVector lightPos = owner->GetActorLocation();
+		if (moveLeft && lightPos.Y > PositionMaxY)
 		{
-			isOn = false;
-			lightCompnent->SetIntensity(0.f);
-			timeFromLastSwitch = GetWorld()->GetTimeSeconds();
+			moveLeft = false;
+			speedMoveY = -speedMoveY;
 		}
+		else if (!moveLeft && lightPos.Y < PositionMinY)
+		{
+			moveLeft = true;
+			speedMoveY = -speedMoveY;
+		}
+
+		if (moveUp && lightPos.X > PositionMaxX)
+		{
+			moveUp = false;
+			speedMoveX = -speedMoveX;
+		}
+		else if (!moveUp && lightPos.X < PositionMinX)
+		{
+			moveUp = true;
+			speedMoveX = -speedMoveX;
+		}
+		FVector newPos = lightPos + FVector(speedMoveX * DeltaTime, speedMoveY * DeltaTime, 0.f);
+		UE_LOG(LogTemp, Error, TEXT("Twoja pozycja to  w %s"), *newPos.ToString());
+		owner->SetActorLocation(newPos);
 	}
-	
 }
 
 void ULightSwitch::SetupLightComponent()
 {
-	lightCompnent = GetOwner()-> FindComponentByClass<ULightComponent>();
-	if(lightCompnent == nullptr)
+	lightCompnent = GetOwner()->FindComponentByClass<ULightComponent>();
+	if (lightCompnent == nullptr)
 	{
 		FString ActorName = GetOwner()->GetName();
 		UE_LOG(LogTemp, Error, TEXT("Nie znaleziono UlightComponent w  w %s"), *ActorName);
