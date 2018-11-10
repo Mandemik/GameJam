@@ -448,3 +448,60 @@ LogInit: Object subsystem initialized
 [2018.11.10-12.38.32:443][683]LogEditorActor: Deleted 1 Actors (0.035 secs)
 [2018.11.10-12.38.40:947][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.11.10-12.38.59:144][283]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap8D730D4F4ADEA2AD4B978880542E7937.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.10-13.23.07:382][762]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\#FBX\regal.FBX)
+[2018.11.10-13.23.07:391][762]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\#FBX\regal.FBX
+[2018.11.10-13.23.07:399][762]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-13.23.10:315][762]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-13.23.10:332][762]LogLinker: Can't find file '/Game/Meshe/Metal_Steel_Brushed_001_diffuse'
+[2018.11.10-13.23.10:332][762]LogLinker: Can't find file '/Game/Meshe/Metal_Steel_Brushed_001_diffuse'
+[2018.11.10-13.23.10:346][762]LogTexture: Display: Building textures: Metal_Steel_Brushed_001_diffuse (AutoDXT, 1024X1024)
+[2018.11.10-13.23.10:401][762]LogLinker: Can't find file '/Game/Meshe/Metal_Steel_Brushed_001_roughness'
+[2018.11.10-13.23.10:401][762]LogLinker: Can't find file '/Game/Meshe/Metal_Steel_Brushed_001_roughness'
+[2018.11.10-13.23.10:432][762]LogTexture: Display: Building textures: Metal_Steel_Brushed_001_roughness (BC5, 1024X1024)
+[2018.11.10-13.23.10:496][762]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.11.10-13.23.10:508][762]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.10-13.23.10:509][762]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.10-13.23.10:509][762]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-13.23.10:509][762]LogStaticMesh: Building static mesh regal...
+[2018.11.10-13.23.10:518][762]LogStaticMesh: Built static mesh [0.01s] /Game/Meshe/regal.regal
+[2018.11.10-13.23.13:722][ 31]LogActorFactory: Actor Factory created regal
+[2018.11.10-13.23.14:779][153]LogActorFactory: Actor Factory created regal
+[2018.11.10-13.24.22:784][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-13.24.26:993][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.24.32:365][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/regal" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/regal.uasset" SILENT=true
+[2018.11.10-13.24.32:386][210]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/regal01F6C0604994FED27376E1A2452011A9.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/regal.uasset'
+[2018.11.10-13.25.01:994][575]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto1810E92EC48FCBE0EEE0BB4B79B2ECBD1.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.11.10-13.25.02:002][575]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.158
+[2018.11.10-13.25.02:002][575]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.158
+[2018.11.10-13.25.02:005][575]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/01_-_Default] ([1] browsable assets)...
+[2018.11.10-13.25.02:039][575]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshe/01_-_Default.01_-_Default]
+[2018.11.10-13.25.02:039][575]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/01_-_Default]
+[2018.11.10-13.25.02:052][575]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/01_-_Default_Auto14FFE49DC42F5607A19A4B59EB1EECE3C.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/01_-_Default_Auto1.uasset'
+[2018.11.10-13.25.02:057][575]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Metal_Steel_Brushed_001_diffuse] ([1] browsable assets)...
+[2018.11.10-13.25.02:069][575]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Metal_Steel_Brushed_001_diffuse.Metal_Steel_Brushed_001_diffuse]
+[2018.11.10-13.25.02:069][575]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Metal_Steel_Brushed_001_diffuse]
+[2018.11.10-13.25.02:082][575]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Metal_Steel_Brushed_001_diffuse_197BC2564B82716A351B02876F85A991.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Metal_Steel_Brushed_001_diffuse_Auto1.uasset'
+[2018.11.10-13.25.02:090][575]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshe/Metal_Steel_Brushed_001_roughness] ([1] browsable assets)...
+[2018.11.10-13.25.02:101][575]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshe/Metal_Steel_Brushed_001_roughness.Metal_Steel_Brushed_001_roughness]
+[2018.11.10-13.25.02:101][575]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshe/Metal_Steel_Brushed_001_roughness]
+[2018.11.10-13.25.02:125][575]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Metal_Steel_Brushed_001_roughnes39950DDC489F1673832EAB9A81748717.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/Meshe/Metal_Steel_Brushed_001_roughness_Auto1.uasset'
+[2018.11.10-13.25.02:131][575]LogFileHelpers: Auto-saving content packages took 0.128
+[2018.11.10-13.25.42:169][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Regal_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset" SILENT=true
+[2018.11.10-13.25.42:184][979]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Regal_ME292B74149326BAF398D23889E3A8CBA.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset'
+[2018.11.10-13.25.42:343][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/regal" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/regal.uasset" SILENT=true
+[2018.11.10-13.25.42:358][979]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/regal946E4082452F912B5E4AEAA73CB3948C.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/regal.uasset'
+[2018.11.10-13.25.56:859][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Regal_T" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_T.uasset" SILENT=true
+[2018.11.10-13.25.56:918][230]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Regal_TC79DD3434DA6DCA65E5DE6936004D6E0.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_T.uasset'
+[2018.11.10-13.25.57:093][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Regal_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset" SILENT=true
+[2018.11.10-13.25.57:109][230]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Regal_M144F800E46A35C55EBBF4F84E5951C59.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset'
+[2018.11.10-13.30.54:742][267]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-13.35.01:953][860]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-13.35.02:152][860]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto2407051334C0DDD715C9DE8A56278EEFA.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.11.10-13.35.02:159][860]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.187
+[2018.11.10-13.35.02:159][860]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.187
+[2018.11.10-13.35.40:999][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-13.36.11:402][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Regal_TB" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_TB.uasset" SILENT=true
+[2018.11.10-13.36.11:497][500]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Regal_TBE49196D743F1CE3FB2CEF7BD51DE35F9.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_TB.uasset'
+[2018.11.10-13.36.11:670][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Regal_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset" SILENT=true
+[2018.11.10-13.36.11:688][500]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Regal_M0428EF704CF227FB171199AEDB9B435A.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Regal_M.uasset'
+[2018.11.10-13.36.15:768][870]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap9A44DEDD47090A33DEEAB29F12353482.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
