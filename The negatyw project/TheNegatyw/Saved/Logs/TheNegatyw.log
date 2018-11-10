@@ -1,6 +1,8 @@
-﻿Log file open, 11/10/18 04:18:49
+﻿Log file open, 11/10/18 13:33:14
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
@@ -8,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TheNegatyw
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.281017
+LogStats: Stats thread started at 0.424601
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.152s to configure plugins.
+LogStreaming: Display: Took  0.343s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -116,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 960
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
 LogInit: Command Line:  
-LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -145,1056 +147,304 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.10-03.18.49:777][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.10-03.18.49:777][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.10-03.18.49:786][  0]LogHAL: Display: Platform has ~ 16 GB [17126469632 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.10-03.18.49:786][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.10-03.18.49:786][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.10-03.18.49:786][  0]LogInit: Computer: DESKTOP-C7HOB9G
-[2018.11.10-03.18.49:786][  0]LogInit: User: KB
-[2018.11.10-03.18.49:786][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.10-03.18.49:786][  0]LogInit: High frequency timer resolution =3.914057 MHz
-[2018.11.10-03.18.49:786][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.11.10-03.18.49:786][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.10-03.18.49:786][  0]LogMemory: Process Physical Memory: 100.28 MB used, 100.28 MB peak
-[2018.11.10-03.18.49:786][  0]LogMemory: Process Virtual Memory: 91.16 MB used, 91.16 MB peak
-[2018.11.10-03.18.49:786][  0]LogMemory: Physical Memory: 7778.08 MB used,  8555.00 MB free, 16333.07 MB total
-[2018.11.10-03.18.49:786][  0]LogMemory: Virtual Memory: 4630.89 MB used,  8555.00 MB free, 134217728.00 MB total
-[2018.11.10-03.18.49:810][  0]LogInit: Using OS detected language (pl-PL).
-[2018.11.10-03.18.49:810][  0]LogInit: Using OS detected locale (pl-PL).
-[2018.11.10-03.18.49:812][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2018.11.10-03.18.49:814][  0]LogStreaming: Display: Took  0.004s to InitEngineTextLocalization.
-[2018.11.10-03.18.49:814][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.10-03.18.49:855][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.10-03.18.49:855][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.10-03.18.50:123][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.11.10-03.18.50:123][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.10-03.18.50:176][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.11.10-03.18.50:176][  0]LogD3D11RHI:       4043/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.11.10-03.18.50:179][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.10-03.18.50:179][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.10-03.18.50:179][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.10-03.18.50:185][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.10-03.18.50:185][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.10-03.18.50:185][  0]LogWindows: EnumDisplayDevices:
-[2018.11.10-03.18.50:185][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.11.10-03.18.50:186][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.11.10-03.18.50:186][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.11.10-03.18.50:186][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.11.10-03.18.50:186][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.11.10-03.18.50:186][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.11.10-03.18.50:187][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
-[2018.11.10-03.18.50:187][  0]LogD3D11RHI:      Driver Date: 7-30-2018
-[2018.11.10-03.18.50:187][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.11.10-03.18.50:224][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.10-03.18.50:246][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.10-03.18.50:298][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Intermediate/Shaders/WorkingDirectory/16576/).
-[2018.11.10-03.18.50:298][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/KB/AppData/Local/Temp/UnrealShaderWorkingDir/0A83F2D7479402020E1C33B9E229DB6E/'.
-[2018.11.10-03.18.50:587][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.10-03.18.50:600][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.10-03.18.50:612][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.10-03.18.50:625][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.10-03.18.50:638][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.10-03.18.50:652][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.10-03.18.50:665][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.10-03.18.50:678][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.10-03.18.50:685][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.10-03.18.50:764][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.10-03.18.50:823][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.10-03.18.50:823][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.10-03.18.50:844][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.10-03.18.50:844][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.10-03.18.50:855][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.10-03.18.50:866][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.10-03.18.50:877][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.10-03.18.50:889][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.10-03.18.50:897][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.10-03.18.50:897][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.10-03.18.50:960][  0]LogXGEController: Cleaning working directory: C:/Users/KB/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.11.10-03.18.50:960][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.10-03.18.50:960][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.10-03.18.50:960][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.10-03.18.51:539][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.10-03.18.51:590][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/KB/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.10-03.18.51:590][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/KB/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.10-03.18.51:590][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.10-03.18.51:590][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.10-03.18.51:591][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.10-03.18.51:591][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.10-03.18.51:602][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.10-03.18.51:616][  0]LogDerivedDataCache: Using Local data cache path C:/Users/KB/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.10-03.18.51:616][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.10-03.18.51:616][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.10-03.18.51:631][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.10-03.18.51:632][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.10-03.18.51:633][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.10-03.18.51:712][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
-[2018.11.10-03.18.51:992][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.10-03.18.52:107][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.10-03.18.52:111][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.10-03.18.52:111][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.10-03.18.52:111][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.10-03.18.52:111][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.10-03.18.52:128][  0]LogNetVersion: TheNegatyw 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1847545228)
-[2018.11.10-03.18.52:588][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.102149 seconds
-[2018.11.10-03.18.52:593][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.11.10-03.18.52:593][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.11.10-03.18.52:593][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.10-03.18.53:464][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.10-03.18.53:478][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.10-03.18.53:777][  0]SourceControl: Source control is disabled
-[2018.11.10-03.18.53:777][  0]SourceControl: Source control is disabled
-[2018.11.10-03.18.53:779][  0]SourceControl: Source control is disabled
-[2018.11.10-03.18.53:780][  0]SourceControl: Source control is disabled
-[2018.11.10-03.18.53:944][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.10-03.18.54:033][  0]LogOcInput: OculusInput pre-init called
-[2018.11.10-03.18.54:084][  0]LogEngine: Initializing Engine...
-[2018.11.10-03.18.54:108][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.11.10-03.18.54:109][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.10-03.18.54:109][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.10-03.18.54:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.10-03.18.54:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.10-03.18.54:280][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.10-03.18.54:293][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.10-03.18.54:325][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.18.54:347][  0]LogInit: FAudioDevice initialized.
-[2018.11.10-03.18.54:348][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.10-03.18.54:419][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/KB/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.10-03.18.54:425][  0]LogInit: Texture streaming: Enabled
-[2018.11.10-03.18.54:446][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.10-03.18.54:460][  0]LogInit: Transaction tracking system initialized
-[2018.11.10-03.18.54:487][  0]BlueprintLog: New page: Editor Load
-[2018.11.10-03.18.54:602][  0]LocalizationService: Localization service is disabled
-[2018.11.10-03.18.54:838][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.10-03.18.54:838][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.10-03.18.54:838][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.10-03.18.54:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.10-03.18.54:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.10-03.18.54:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.10-03.18.54:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.10-03.18.54:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Content/' took 0.02s
-[2018.11.10-03.18.54:960][  0]SourceControl: Source control is disabled
-[2018.11.10-03.18.54:961][  0]Cmd: MAP LOAD FILE="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.10-03.18.54:961][  0]LightingResults: New page: Lighting Build
-[2018.11.10-03.18.54:964][  0]MapCheck: New page: Map Check
-[2018.11.10-03.18.54:964][  0]LightingResults: New page: Lighting Build
-[2018.11.10-03.18.55:162][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.18.55:173][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.10-03.18.55:192][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.10-03.18.55:272][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80,032ms to complete.
-[2018.11.10-03.18.55:272][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.311
-[2018.11.10-03.18.55:380][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.18.55:386][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.18.55:392][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.18.55:399][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.18.55:406][  0]LogCollectionManager: Loaded 0 collections in 0.002202 seconds
-[2018.11.10-03.18.55:452][  0]LogFileCache: Scanning file cache for directory 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Collections/' took 0.01s
-[2018.11.10-03.18.55:452][  0]LogFileCache: Scanning file cache for directory 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Content/Developers/KB/Collections/' took 0.01s
-[2018.11.10-03.18.55:452][  0]LogFileCache: Scanning file cache for directory 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Content/Collections/' took 0.01s
-[2018.11.10-03.18.55:452][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.10-03.18.55:460][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2577 classes and 605 folders.
-[2018.11.10-03.18.55:467][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.10-03.18.55:536][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.10-03.18.55:543][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.11.10-03.18.55:555][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.10-03.18.55:557][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.10-03.18.55:562][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.10-03.18.55:632][  0]LogRenderer: Reallocating scene render targets to support 1160x632 Format 10 NumSamples 1 (Frame:1).
-[2018.11.10-03.18.55:671][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.10-03.18.55:757][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.11.10-03.18.55:757][  0]LogLoad: (Engine Initialization) Total time: 8.13 seconds
-[2018.11.10-03.18.55:757][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.10-03.18.55:767][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.10-03.18.55:785][  0]LogAssetRegistry: Asset discovery search completed in 4.0967 seconds
-[2018.11.10-03.18.55:787][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.11.10-03.18.55:787][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
-[2018.11.10-03.18.55:788][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.10-03.18.56:799][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.18.56:965][131]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.10-03.18.56:972][131]LogAssetEditorManager: Opening Asset editor for Class /Script/TheNegatyw.PlayerInventory
-[2018.11.10-03.20.37:855][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.11.10-03.20.39:271][700]LogSlate: Took 0.208575 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.11.10-03.20.40:446][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
-[2018.11.10-03.20.42:101][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.20.44:094][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.20.50:680][ 34]LogAssetEditorManager: Opening Asset editor for Class /Script/TheNegatyw.PickableComponent
-[2018.11.10-03.22.41:994][968]MapCheck: New page: Map Check
-[2018.11.10-03.22.42:072][968]LightingResults: New page: Lighting Build - 10 lis 2018, 05:22:42
-[2018.11.10-03.22.42:234][968]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.11.10-03.22.42:400][968]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.11.10-03.22.42:414][968]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.11.10-03.22.42:947][968]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.11.10-03.22.42:947][968]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16576
-[2018.11.10-03.22.48:294][968]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.11.10-03.22.48:295][968]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.11.10-03.22.48:295][968]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.11.10-03.22.48:295][968]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.11.10-03.22.48:295][968]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.11.10-03.22.48:517][968]LogEditorBuildUtils: Build time 0:06
-[2018.11.10-03.22.48:524][968]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
-[2018.11.10-03.22.48:536][968]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
-[2018.11.10-03.22.48:579][968]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.11.10-03.22.48:587][969]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
-[2018.11.10-03.22.48:592][969]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
-[2018.11.10-03.22.48:596][969]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.11.10-03.22.48:614][969]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.11.10-03.22.48:650][970]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer RampMaterial, compiling. 
-[2018.11.10-03.22.48:655][970]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.11.10-03.22.48:655][970]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer RampMaterial, compiling. 
-[2018.11.10-03.22.48:673][971]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
-[2018.11.10-03.22.48:685][971]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
-[2018.11.10-03.22.50:947][972]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.11.10-03.22.53:129][ 66]Candidate modules for hot reload:
-[2018.11.10-03.22.53:129][ 66]  TheNegatyw
-[2018.11.10-03.22.53:129][ 66]Launching UnrealBuildTool... [D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TheNegatyw,2808 Win64 Development -TargetType=Editor -Project="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" -canskiplink "C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" ]
-[2018.11.10-03.22.53:136][ 66]Warning: Starting HotReload took  0.0s.
-[2018.11.10-03.22.56:121][335]Job is a success!
-[2018.11.10-03.22.56:252][336]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.061s
-[2018.11.10-03.22.56:252][336]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.11.10-03.22.56:252][336]LogVolumetricLightmapImport:      BrickData 240x5x5 = 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
-[2018.11.10-03.22.56:252][336]LogVolumetricLightmapImport:      Bricks at Level
-[2018.11.10-03.22.56:252][336]LogVolumetricLightmapImport:          0: 2.1% covering 100.0% of volume
-[2018.11.10-03.22.56:252][336]LogVolumetricLightmapImport:          1: 8.3% covering 6.3% of volume
-[2018.11.10-03.22.56:252][336]LogVolumetricLightmapImport:          2: 89.6% covering 1.0% of volume
-[2018.11.10-03.22.56:840][336]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
-[2018.11.10-03.22.56:840][336]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2018.11.10-03.22.56:840][336]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2018.11.10-03.22.56:840][336]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
-[2018.11.10-03.22.56:840][336]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
-[2018.11.10-03.22.56:840][336]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
-[2018.11.10-03.22.56:840][336]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
-[2018.11.10-03.22.56:840][336]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
-[2018.11.10-03.22.56:840][336]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
-[2018.11.10-03.22.57:040][336]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2018.11.10-03.22.57:079][336]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
-[2018.11.10-03.22.57:102][336]Lightmass on DESKTOP-C7HOB9G: 4.74 sec total, 108 ms importing, 7 ms setup, 919 ms photons, 3.67 sec processing, 0 ms extra exporting [12/12 mappings]. Threads: 25.5 sec total, 8.36 sec processing.
-[2018.11.10-03.22.57:151][336]LogStaticLightingSystem: Illumination: 15.0 sec (490 ms encoding lightmaps, 233 ms encoding shadowmaps)
-[2018.11.10-03.22.57:151][336]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
-[2018.11.10-03.22.57:151][336]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.11.10-03.22.57:282][336]DumpUnbuiltLightIteractions
-[2018.11.10-03.22.57:283][336]Lights with unbuilt interactions: 0
-[2018.11.10-03.22.57:283][336]
-[2018.11.10-03.22.57:283][336]Primitives with unbuilt interactions: 0
-[2018.11.10-03.22.57:357][337]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.11.10-03.22.57:358][337]MapCheck: New page: ThirdPersonExampleMap - 10 lis 2018, 05:22:57
-[2018.11.10-03.22.57:509][337]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151,081ms to complete.
-[2018.11.10-03.23.00:507][498]CompilerResultsLog: New page: Compilation - 10 lis 2018, 05:23:00
-[2018.11.10-03.23.00:507][498]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.23.00:507][498]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> origin/KB-Programing' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.23.00:507][498]CompilerResultsLog: Creating makefile for hot reloading TheNegatywEditor (no existing makefile)
-[2018.11.10-03.23.00:507][498]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.10-03.23.00:508][498]CompilerResultsLog: Using Visual Studio 2015 14.0 toolchain (C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC) and Windows 8.1 SDK (C:\Program Files (x86)\Windows Kits\8.1).
-[2018.11.10-03.23.00:508][498]CompilerResultsLog: Target is up to date
-[2018.11.10-03.23.00:508][498]CompilerResultsLog: Total build time: 6,71 seconds (NoActionsToExecute executor: 0,00 seconds)
-[2018.11.10-03.23.00:508][498]LogMainFrame: MainFrame: Module compiling took 7.386 seconds
-[2018.11.10-03.23.00:540][498]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2578 classes and 607 folders.
-[2018.11.10-03.23.00:540][498]Display: HotReload took  7.4s.
-[2018.11.10-03.23.03:979][523]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.23.03:986][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.23.03:986][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.23.03:998][523]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:23:03)
-[2018.11.10-03.23.03:998][523]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.23.04:018][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019811s)
-[2018.11.10-03.23.04:019][523]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.23.04:019][523]LogPlayLevel: PIE: World Init took: (0.001256s)
-[2018.11.10-03.23.04:019][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021356s)
-[2018.11.10-03.23.04:071][523]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.23.04:091][523]LogInit: FAudioDevice initialized.
-[2018.11.10-03.23.04:130][523]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.23.04:132][523]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.23.04
-[2018.11.10-03.23.04:132][523]LogWorld: Bringing up level for play took: 0.000994
-[2018.11.10-03.23.04:181][523]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
-[2018.11.10-03.23.04:184][523]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.23.04:184][523]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,017
-[2018.11.10-03.23.04:184][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.23.06:164][757]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.23.06:164][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.23.06:195][757]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.23.06:195][757]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.23.06:217][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.23.06:272][763]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2018.11.10-03.23.25:302][713]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.23.25:309][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.23.25:310][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.23.25:310][713]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:23:25)
-[2018.11.10-03.23.25:310][713]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.23.25:319][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009701s)
-[2018.11.10-03.23.25:320][713]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.23.25:320][713]LogPlayLevel: PIE: World Init took: (0.000761s)
-[2018.11.10-03.23.25:320][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010647s)
-[2018.11.10-03.23.25:365][713]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.23.25:379][713]LogInit: FAudioDevice initialized.
-[2018.11.10-03.23.25:413][713]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.23.25:414][713]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.23.25
-[2018.11.10-03.23.25:414][713]LogWorld: Bringing up level for play took: 0.000840
-[2018.11.10-03.23.25:427][713]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.23.25:427][713]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,739
-[2018.11.10-03.23.25:428][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.23.30:321][299]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.23.30:321][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.23.30:351][299]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.23.30:352][299]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.23.30:371][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.23.30:426][303]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2018.11.10-03.23.31:344][412]LogAssetEditorManager: Opening Asset editor for Class /Script/TheNegatyw.PlayerInventory
-[2018.11.10-03.24.12:769][494]Running D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" -game -rocket -progress
-[2018.11.10-03.24.12:975][494]WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.24.12:975][494]WARNING: Couldn't parse '>>>>>>> origin/KB-Programing' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.24.13:075][494]Discovering modules, targets and source code for project...
-[2018.11.10-03.24.15:692][494]D:\UE_4.20\Engine\Source\ThirdParty\Expat\Expat.Build.cs: warning: Referenced directory 'D:\UE_4.20\Engine\Source\ThirdParty\Expat\expat-2.2.0\Win64\VS2015\Release' does not exist.
-[2018.11.10-03.24.22:174][884]LogAssetEditorManager: Opening Asset editor for Class /Script/TheNegatyw.PlayerInventory
-[2018.11.10-03.27.40:236][629]Candidate modules for hot reload:
-[2018.11.10-03.27.40:236][629]  TheNegatyw
-[2018.11.10-03.27.40:236][629]Launching UnrealBuildTool... [D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TheNegatyw,8541 Win64 Development -TargetType=Editor -Project="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" -canskiplink "C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" ]
-[2018.11.10-03.27.40:243][629]Warning: Starting HotReload took  0.0s.
-[2018.11.10-03.28.01:685][200]CompilerResultsLog: New page: Compilation - 10 lis 2018, 05:28:01
-[2018.11.10-03.28.01:685][200]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.28.01:685][200]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> origin/KB-Programing' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.28.01:685][200]CompilerResultsLog: Creating makefile for hot reloading TheNegatywEditor (modules to compile have changed)
-[2018.11.10-03.28.01:685][200]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.10-03.28.01:685][200]CompilerResultsLog: Using Visual Studio 2015 14.0 toolchain (C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC) and Windows 8.1 SDK (C:\Program Files (x86)\Windows Kits\8.1).
-[2018.11.10-03.28.01:685][200]CompilerResultsLog: Parsing headers for TheNegatywEditor
-[2018.11.10-03.28.01:685][200]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\TheNegatyw.uproject" "C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\TheNegatywEditor\Development\TheNegatywEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.11.10-03.28.01:685][200]CompilerResultsLog: Reflection code generated for TheNegatywEditor in 11,9260859 seconds
-[2018.11.10-03.28.01:685][200]CompilerResultsLog: Building 7 actions with 8 processes...
-[2018.11.10-03.28.01:685][200]CompilerResultsLog:   [1/7] PlayerInventory.cpp
-[2018.11.10-03.28.01:685][200]CompilerResultsLog:   [2/7] TheNegatyw.init.gen.cpp
-[2018.11.10-03.28.01:685][200]CompilerResultsLog:   [3/7] PickableComponent.gen.cpp
-[2018.11.10-03.28.01:685][200]CompilerResultsLog:   [4/7] PlayerInventory.gen.cpp
-[2018.11.10-03.28.01:685][200]CompilerResultsLog:   [5/7] PickableComponent.cpp
-[2018.11.10-03.28.01:685][200]CompilerResultsLog:   [6/7] UE4Editor-TheNegatyw-8541.lib
-[2018.11.10-03.28.01:685][200]CompilerResultsLog:      Creating library C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-8541.lib and object C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-8541.exp
-[2018.11.10-03.28.01:686][200]CompilerResultsLog:   [7/7] UE4Editor-TheNegatyw-8541.dll
-[2018.11.10-03.28.01:686][200]CompilerResultsLog:      Creating library C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-8541.suppressed.lib and object C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-8541.suppressed.exp
-[2018.11.10-03.28.01:686][200]CompilerResultsLog: Total build time: 21,13 seconds (Parallel executor: 1,94 seconds)
-[2018.11.10-03.28.01:686][200]LogMainFrame: MainFrame: Module compiling took 21.458 seconds
-[2018.11.10-03.28.01:717][200]LogClass: Could not find existing class PickableComponent in package /Script/TheNegatyw for HotReload, assuming new class
-[2018.11.10-03.28.01:717][200]LogClass: Could not find existing class PlayerInventory in package /Script/TheNegatyw for HotReload, assuming new class
-[2018.11.10-03.28.01:722][200]LogHotReload: Re-instancing PickableComponent after hot-reload.
-[2018.11.10-03.28.01:768][200]LogHotReload: Re-instancing PlayerInventory after hot-reload.
-[2018.11.10-03.28.01:813][200]LogContentBrowser: Native class hierarchy updated for 'TheNegatyw' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2018.11.10-03.28.01:815][200]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.11.10-03.28.01:928][200]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2578 classes and 607 folders.
-[2018.11.10-03.28.01:928][200]Display: HotReload took 21.7s.
-[2018.11.10-03.28.28:143][588]Candidate modules for hot reload:
-[2018.11.10-03.28.28:143][588]  TheNegatyw
-[2018.11.10-03.28.28:144][588]Launching UnrealBuildTool... [D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TheNegatyw,7227 Win64 Development -TargetType=Editor -Project="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" -canskiplink "C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" ]
-[2018.11.10-03.28.28:149][588]Warning: Starting HotReload took  0.0s.
-[2018.11.10-03.28.31:996][ 46]CompilerResultsLog: New page: Compilation - 10 lis 2018, 05:28:31
-[2018.11.10-03.28.31:997][ 46]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.28.31:997][ 46]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> origin/KB-Programing' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.28.31:997][ 46]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.10-03.28.31:997][ 46]CompilerResultsLog: Building 3 actions with 8 processes...
-[2018.11.10-03.28.31:997][ 46]CompilerResultsLog:   [1/3] PickableComponent.cpp
-[2018.11.10-03.28.31:997][ 46]CompilerResultsLog:   [2/3] UE4Editor-TheNegatyw-7227.lib
-[2018.11.10-03.28.31:997][ 46]CompilerResultsLog:      Creating library C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-7227.lib and object C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-7227.exp
-[2018.11.10-03.28.31:997][ 46]CompilerResultsLog:   [3/3] UE4Editor-TheNegatyw-7227.dll
-[2018.11.10-03.28.31:997][ 46]CompilerResultsLog:      Creating library C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-7227.suppressed.lib and object C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-7227.suppressed.exp
-[2018.11.10-03.28.31:997][ 46]CompilerResultsLog: Total build time: 3,53 seconds (Parallel executor: 1,49 seconds)
-[2018.11.10-03.28.31:997][ 46]LogMainFrame: MainFrame: Module compiling took 3.861 seconds
-[2018.11.10-03.28.32:031][ 46]LogContentBrowser: Native class hierarchy updated for 'TheNegatyw' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2018.11.10-03.28.32:033][ 46]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.11.10-03.28.32:082][ 46]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2578 classes and 607 folders.
-[2018.11.10-03.28.32:082][ 46]Display: HotReload took  4.0s.
-[2018.11.10-03.28.37:246][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.28.37:345][673]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.28.37:352][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.28.37:352][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.28.37:352][673]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:28:37)
-[2018.11.10-03.28.37:353][673]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.28.37:366][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013079s)
-[2018.11.10-03.28.37:367][673]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.28.37:367][673]LogPlayLevel: PIE: World Init took: (0.001099s)
-[2018.11.10-03.28.37:367][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014403s)
-[2018.11.10-03.28.37:418][673]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.28.37:435][673]LogInit: FAudioDevice initialized.
-[2018.11.10-03.28.37:465][673]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.28.37:467][673]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.28.37
-[2018.11.10-03.28.37:467][673]LogWorld: Bringing up level for play took: 0.000947
-[2018.11.10-03.28.37:481][673]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.28.37:481][673]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,686
-[2018.11.10-03.28.37:481][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.28.43:013][330]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.28.43:013][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.28.43:047][330]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.28.43:047][330]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.28.43:068][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.28.43:116][335]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2018.11.10-03.28.44:466][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.28.44:575][510]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.28.44:584][510]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.28.44:584][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.28.44:584][510]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:28:44)
-[2018.11.10-03.28.44:584][510]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.28.44:595][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011034s)
-[2018.11.10-03.28.44:596][510]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.28.44:596][510]LogPlayLevel: PIE: World Init took: (0.000875s)
-[2018.11.10-03.28.44:596][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012132s)
-[2018.11.10-03.28.44:647][510]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.28.44:662][510]LogInit: FAudioDevice initialized.
-[2018.11.10-03.28.44:694][510]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.28.44:696][510]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.28.44
-[2018.11.10-03.28.44:696][510]LogWorld: Bringing up level for play took: 0.000846
-[2018.11.10-03.28.44:709][510]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.28.44:709][510]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,543
-[2018.11.10-03.28.44:709][510]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.28.45:259][569]EditorErrors: New page: Actor attachment
-[2018.11.10-03.28.53:347][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.28.53:372][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.28.53:404][480]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.28.53:405][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.28.53:425][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.28.53:463][483]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2018.11.10-03.28.57:882][  2]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.28.57:890][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.28.57:890][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.28.57:891][  2]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:28:57)
-[2018.11.10-03.28.57:891][  2]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.28.57:901][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009944s)
-[2018.11.10-03.28.57:901][  2]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.28.57:902][  2]LogPlayLevel: PIE: World Init took: (0.000844s)
-[2018.11.10-03.28.57:902][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010981s)
-[2018.11.10-03.28.57:947][  2]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.28.57:964][  2]LogInit: FAudioDevice initialized.
-[2018.11.10-03.28.57:993][  2]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.28.57:995][  2]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.28.57
-[2018.11.10-03.28.57:995][  2]LogWorld: Bringing up level for play took: 0.000849
-[2018.11.10-03.28.58:009][  2]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.28.58:010][  2]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,157
-[2018.11.10-03.28.58:010][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.29.13:165][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.29.13:166][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.29.13:196][435]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.29.13:196][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.29.13:216][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.29.13:273][441]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2018.11.10-03.29.14:923][637]LogAssetEditorManager: Opening Asset editor for Class /Script/TheNegatyw.TheNegatywCharacter
-[2018.11.10-03.29.27:177][ 80]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2018.11.10-03.29.27:666][ 80]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.11.10-03.29.30:584][299]LogSlate: Window 'ThirdPersonCharacter' being destroyed
-[2018.11.10-03.29.30:658][299]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2018.11.10-03.29.30:930][299]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.11.10-03.29.43:542][755]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.11.10-03.29.44:459][842]LogSavePackage: Moving 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonCharacterB5A255C64856F2C35F2E57A6CADC296F.tmp' to 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
-[2018.11.10-03.29.45:508][965]LogSlate: Window 'ThirdPersonCharacter' being destroyed
-[2018.11.10-03.29.45:512][965]LogSlate: Window 'ThirdPersonCharacter' being destroyed
-[2018.11.10-03.29.46:302][ 52]Candidate modules for hot reload:
-[2018.11.10-03.29.46:303][ 52]  TheNegatyw
-[2018.11.10-03.29.46:303][ 52]Launching UnrealBuildTool... [D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TheNegatyw,8531 Win64 Development -TargetType=Editor -Project="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" -canskiplink "C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" ]
-[2018.11.10-03.29.46:309][ 52]Warning: Starting HotReload took  0.0s.
-[2018.11.10-03.29.48:530][319]CompilerResultsLog: New page: Compilation - 10 lis 2018, 05:29:48
-[2018.11.10-03.29.48:531][319]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.29.48:531][319]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> origin/KB-Programing' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.29.48:531][319]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.10-03.29.48:531][319]CompilerResultsLog: Target is up to date
-[2018.11.10-03.29.48:531][319]CompilerResultsLog: Total build time: 1,91 seconds (NoActionsToExecute executor: 0,00 seconds)
-[2018.11.10-03.29.48:531][319]LogMainFrame: MainFrame: Module compiling took 2.235 seconds
-[2018.11.10-03.29.48:752][319]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2578 classes and 607 folders.
-[2018.11.10-03.29.48:752][319]Display: HotReload took  2.5s.
-[2018.11.10-03.29.49:419][399]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.29.49:431][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.29.49:431][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.29.49:431][399]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:29:49)
-[2018.11.10-03.29.49:431][399]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.29.49:442][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011113s)
-[2018.11.10-03.29.49:443][399]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.29.49:443][399]LogPlayLevel: PIE: World Init took: (0.000932s)
-[2018.11.10-03.29.49:443][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012280s)
-[2018.11.10-03.29.49:517][399]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.29.49:536][399]LogInit: FAudioDevice initialized.
-[2018.11.10-03.29.49:565][399]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.29.49:566][399]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.29.49
-[2018.11.10-03.29.49:566][399]LogWorld: Bringing up level for play took: 0.000914
-[2018.11.10-03.29.49:579][399]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.29.49:580][399]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,587
-[2018.11.10-03.29.49:580][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.30.04:305][132]LogTemp: Error: Wlazles W trigger
-[2018.11.10-03.30.04:990][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.30.04:990][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.30.05:024][214]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.30.05:025][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.30.05:048][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.30.05:104][216]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2018.11.10-03.30.25:042][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.30.25:132][624]Candidate modules for hot reload:
-[2018.11.10-03.30.25:132][624]  TheNegatyw
-[2018.11.10-03.30.25:133][624]Launching UnrealBuildTool... [D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TheNegatyw,8097 Win64 Development -TargetType=Editor -Project="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" -canskiplink "C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" ]
-[2018.11.10-03.30.25:139][624]Warning: Starting HotReload took  0.0s.
-[2018.11.10-03.30.28:082][977]CompilerResultsLog: New page: Compilation - 10 lis 2018, 05:30:28
-[2018.11.10-03.30.28:082][977]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.30.28:082][977]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> origin/KB-Programing' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.30.28:082][977]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.10-03.30.28:082][977]CompilerResultsLog: Building 3 actions with 8 processes...
-[2018.11.10-03.30.28:082][977]CompilerResultsLog:   [1/3] PickableComponent.cpp
-[2018.11.10-03.30.28:082][977]CompilerResultsLog:    C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Source\TheNegatyw\PickableComponent.cpp(38) : error C2064: term does not evaluate to a function taking 0 arguments
-[2018.11.10-03.30.28:082][977]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Binaries\Win64\UE4Editor-TheNegatyw-8097.dll
-[2018.11.10-03.30.28:082][977]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2018.11.10-03.30.28:082][977]CompilerResultsLog: Total build time: 2,61 seconds (Parallel executor: 0,00 seconds)
-[2018.11.10-03.30.28:082][977]LogMainFrame: MainFrame: Module compiling took 2.958 seconds
-[2018.11.10-03.30.28:082][977]Warning: HotReload failed, recompile failed
-[2018.11.10-03.30.30:609][258]LogSavePackage: Moving 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto1835A432F44BCDB056579C48759DAD798.tmp' to 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2018.11.10-03.30.30:614][258]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.159
-[2018.11.10-03.30.30:614][258]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.159
-[2018.11.10-03.30.30:617][258]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData] ([1] browsable assets)...
-[2018.11.10-03.30.30:617][258]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData]
-[2018.11.10-03.30.30:638][258]LogSavePackage: Moving 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_BuiltData_429784EC4D18372F0B14938498EACF17.tmp' to 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData_Auto1.uasset'
-[2018.11.10-03.30.30:640][258]LogFileHelpers: Auto-saving content packages took 0.025
-[2018.11.10-03.30.39:496][274]LogSlate: Window 'Message Log' being destroyed
-[2018.11.10-03.30.39:499][274]LogSlate: Window 'Message Log' being destroyed
-[2018.11.10-03.31.01:770][291]Candidate modules for hot reload:
-[2018.11.10-03.31.01:770][291]  TheNegatyw
-[2018.11.10-03.31.01:770][291]Launching UnrealBuildTool... [D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TheNegatyw,5716 Win64 Development -TargetType=Editor -Project="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" -canskiplink "C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" ]
-[2018.11.10-03.31.01:777][291]Warning: Starting HotReload took  0.0s.
-[2018.11.10-03.31.05:726][488]CompilerResultsLog: New page: Compilation - 10 lis 2018, 05:31:05
-[2018.11.10-03.31.05:726][488]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.31.05:726][488]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> origin/KB-Programing' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.31.05:726][488]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.10-03.31.05:726][488]CompilerResultsLog: Building 3 actions with 8 processes...
-[2018.11.10-03.31.05:726][488]CompilerResultsLog:   [1/3] PickableComponent.cpp
-[2018.11.10-03.31.05:726][488]CompilerResultsLog:   [2/3] UE4Editor-TheNegatyw-5716.lib
-[2018.11.10-03.31.05:727][488]CompilerResultsLog:      Creating library C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-5716.lib and object C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-5716.exp
-[2018.11.10-03.31.05:727][488]CompilerResultsLog:   [3/3] UE4Editor-TheNegatyw-5716.dll
-[2018.11.10-03.31.05:727][488]CompilerResultsLog:      Creating library C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-5716.suppressed.lib and object C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-5716.suppressed.exp
-[2018.11.10-03.31.05:727][488]CompilerResultsLog: Total build time: 3,39 seconds (Parallel executor: 1,40 seconds)
-[2018.11.10-03.31.05:727][488]LogMainFrame: MainFrame: Module compiling took 3.984 seconds
-[2018.11.10-03.31.05:775][488]LogContentBrowser: Native class hierarchy updated for 'TheNegatyw' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2018.11.10-03.31.05:778][488]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.11.10-03.31.06:047][488]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2578 classes and 607 folders.
-[2018.11.10-03.31.06:048][488]Display: HotReload took  4.3s.
-[2018.11.10-03.31.07:809][503]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.31.07:819][503]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.31.07:819][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.31.07:819][503]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:31:07)
-[2018.11.10-03.31.07:819][503]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.31.07:829][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009851s)
-[2018.11.10-03.31.07:830][503]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.31.07:830][503]LogPlayLevel: PIE: World Init took: (0.000799s)
-[2018.11.10-03.31.07:830][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010852s)
-[2018.11.10-03.31.07:910][503]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.31.07:926][503]LogInit: FAudioDevice initialized.
-[2018.11.10-03.31.07:955][503]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.31.07:957][503]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.31.07
-[2018.11.10-03.31.07:957][503]LogWorld: Bringing up level for play took: 0.000954
-[2018.11.10-03.31.07:971][503]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.31.07:971][503]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,195
-[2018.11.10-03.31.07:971][503]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.31.13:606][177]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.31.13:607][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.31.13:641][177]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.31.13:642][177]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.31.13:667][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.31.13:709][178]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2018.11.10-03.31.15:954][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.31.16:054][456]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.31.16:061][456]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.31.16:061][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.31.16:061][456]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:31:16)
-[2018.11.10-03.31.16:061][456]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.31.16:072][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010699s)
-[2018.11.10-03.31.16:073][456]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.31.16:073][456]LogPlayLevel: PIE: World Init took: (0.000879s)
-[2018.11.10-03.31.16:073][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011795s)
-[2018.11.10-03.31.16:126][456]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.31.16:144][456]LogInit: FAudioDevice initialized.
-[2018.11.10-03.31.16:175][456]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.31.16:176][456]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.31.16
-[2018.11.10-03.31.16:176][456]LogWorld: Bringing up level for play took: 0.000830
-[2018.11.10-03.31.16:189][456]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.31.16:190][456]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,023
-[2018.11.10-03.31.16:190][456]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.32.18:621][918]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.32.18:651][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.32.18:683][918]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.32.18:683][918]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.32.18:707][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.32.18:726][920]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2018.11.10-03.34.04:537][294]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.34.04:544][294]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.34.04:544][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.34.04:544][294]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:34:04)
-[2018.11.10-03.34.04:545][294]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.34.04:555][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009988s)
-[2018.11.10-03.34.04:555][294]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.34.04:556][294]LogPlayLevel: PIE: World Init took: (0.000960s)
-[2018.11.10-03.34.04:556][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011172s)
-[2018.11.10-03.34.04:607][294]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.34.04:625][294]LogInit: FAudioDevice initialized.
-[2018.11.10-03.34.04:652][294]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.34.04:654][294]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.34.04
-[2018.11.10-03.34.04:654][294]LogWorld: Bringing up level for play took: 0.000861
-[2018.11.10-03.34.04:667][294]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.34.04:667][294]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,501
-[2018.11.10-03.34.04:668][294]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.34.07:275][605]LogTemp: Error: Wlazles W trigger
-[2018.11.10-03.36.30:940][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.36.30:940][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.36.30:973][833]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.36.30:974][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.36.30:999][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.36.31:043][837]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2018.11.10-03.36.33:878][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.36.33:961][186]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.36.33:969][186]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.36.33:969][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.36.33:970][186]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:36:33)
-[2018.11.10-03.36.33:970][186]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.36.33:981][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010811s)
-[2018.11.10-03.36.33:981][186]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.36.33:982][186]LogPlayLevel: PIE: World Init took: (0.000925s)
-[2018.11.10-03.36.33:982][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011994s)
-[2018.11.10-03.36.34:038][186]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.36.34:055][186]LogInit: FAudioDevice initialized.
-[2018.11.10-03.36.34:083][186]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.36.34:085][186]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.36.34
-[2018.11.10-03.36.34:085][186]LogWorld: Bringing up level for play took: 0.000973
-[2018.11.10-03.36.34:099][186]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.36.34:099][186]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,067
-[2018.11.10-03.36.34:099][186]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.36.36:878][517]LogTemp: Error: Wlazles W trigger
-[2018.11.10-03.36.39:386][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.36.39:387][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.36.39:421][818]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.36.39:422][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.36.39:447][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.36.39:492][822]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2018.11.10-03.37.24:487][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.10-03.38.45:039][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.11.10-03.38.59:590][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.38.59:706][449]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.10-03.38.59:714][449]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.38.59:714][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.10-03.38.59:714][449]PIE: New page: PIE session: ThirdPersonExampleMap (10 lis 2018, 05:38:59)
-[2018.11.10-03.38.59:714][449]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.10-03.38.59:725][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010032s)
-[2018.11.10-03.38.59:725][449]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.10-03.38.59:726][449]LogPlayLevel: PIE: World Init took: (0.001009s)
-[2018.11.10-03.38.59:726][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011298s)
-[2018.11.10-03.38.59:775][449]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.10-03.38.59:792][449]LogInit: FAudioDevice initialized.
-[2018.11.10-03.38.59:824][449]LogLoad: Game class is 'TheNegatywGameMode'
-[2018.11.10-03.38.59:826][449]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.10-04.38.59
-[2018.11.10-03.38.59:826][449]LogWorld: Bringing up level for play took: 0.000862
-[2018.11.10-03.38.59:840][449]LogTemp: Error: Odnaleziono Light Component
-[2018.11.10-03.38.59:840][449]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,326
-[2018.11.10-03.38.59:840][449]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.39.03:209][844]LogTemp: Error: Wlazles W trigger
-[2018.11.10-03.39.03:834][919]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.39.03:834][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.39.03:869][919]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.10-03.39.03:870][919]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.10-03.39.03:891][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.10-03.39.03:938][922]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2018.11.10-03.39.08:437][425]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2018.11.10-03.39.15:082][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.39.39:934][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.39.50:948][218]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
-[2018.11.10-03.39.56:226][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.11.10-03.39.57:252][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.40.27:943][356]Candidate modules for hot reload:
-[2018.11.10-03.40.27:943][356]  TheNegatyw
-[2018.11.10-03.40.27:943][356]Launching UnrealBuildTool... [D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TheNegatyw,4737 Win64 Development -TargetType=Editor -Project="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" -canskiplink "C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" ]
-[2018.11.10-03.40.27:948][356]Warning: Starting HotReload took  0.0s.
-[2018.11.10-03.40.42:754][ 38]CompilerResultsLog: New page: Compilation - 10 lis 2018, 05:40:42
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> origin/KB-Programing' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog: Parsing headers for TheNegatywEditor
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\TheNegatyw.uproject" "C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\TheNegatywEditor\Development\TheNegatywEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog: Reflection code generated for TheNegatywEditor in 10,8231947 seconds
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog: Building 7 actions with 8 processes...
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog:   [1/7] TheNegatyw.init.gen.cpp
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog:   [2/7] PlayerInventory.cpp
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog:   [3/7] PlayerInventory.gen.cpp
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog:   [4/7] PickableComponent.gen.cpp
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog:   [5/7] PickableComponent.cpp
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog:   [6/7] UE4Editor-TheNegatyw-4737.lib
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog:      Creating library C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-4737.lib and object C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-4737.exp
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog:   [7/7] UE4Editor-TheNegatyw-4737.dll
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog:      Creating library C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-4737.suppressed.lib and object C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-4737.suppressed.exp
-[2018.11.10-03.40.42:755][ 38]CompilerResultsLog: Total build time: 14,46 seconds (Parallel executor: 1,65 seconds)
-[2018.11.10-03.40.42:755][ 38]LogMainFrame: MainFrame: Module compiling took 14.821 seconds
-[2018.11.10-03.40.42:791][ 38]LogClass: Could not find existing class PlayerInventory in package /Script/TheNegatyw for HotReload, assuming new class
-[2018.11.10-03.40.42:801][ 38]LogHotReload: Re-instancing PlayerInventory after hot-reload.
-[2018.11.10-03.40.42:899][ 38]LogContentBrowser: Native class hierarchy updated for 'TheNegatyw' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2018.11.10-03.40.42:902][ 38]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.11.10-03.40.43:199][ 38]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2578 classes and 607 folders.
-[2018.11.10-03.40.43:199][ 38]Display: HotReload took 15.3s.
-[2018.11.10-03.41.05:825][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.10-03.41.05:826][968]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.11.10-03.41.21:984][884]LogSlate: Window 'Add C++ Class' being destroyed
-[2018.11.10-03.41.23:057][ 11]LogAssetEditorManager: Opening Asset editor for Class /Script/TheNegatyw.LightSwitch
-[2018.11.10-03.44.05:326][ 48]Candidate modules for hot reload:
-[2018.11.10-03.44.05:326][ 48]  TheNegatyw
-[2018.11.10-03.44.05:326][ 48]Launching UnrealBuildTool... [D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TheNegatyw,2904 Win64 Development -TargetType=Editor -Project="C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" -canskiplink "C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/TheNegatyw.uproject" ]
-[2018.11.10-03.44.05:332][ 48]Warning: Starting HotReload took  0.0s.
-[2018.11.10-03.44.20:731][296]CompilerResultsLog: New page: Compilation - 10 lis 2018, 05:44:20
-[2018.11.10-03.44.20:731][296]CompilerResultsLog: WARNING: Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.44.20:731][296]CompilerResultsLog: WARNING: Couldn't parse '>>>>>>> origin/KB-Programing' in UnrealBuildTool.ConfigFileSection of C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Config\DefaultEngine.ini
-[2018.11.10-03.44.20:732][296]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.10-03.44.20:732][296]CompilerResultsLog: Parsing headers for TheNegatywEditor
-[2018.11.10-03.44.20:732][296]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\TheNegatyw.uproject" "C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\TheNegatywEditor\Development\TheNegatywEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.11.10-03.44.20:732][296]CompilerResultsLog: Reflection code generated for TheNegatywEditor in 11,0135227 seconds
-[2018.11.10-03.44.20:733][296]CompilerResultsLog: Building 5 actions with 8 processes...
-[2018.11.10-03.44.20:733][296]CompilerResultsLog:   [1/5] TheNegatyw.init.gen.cpp
-[2018.11.10-03.44.20:733][296]CompilerResultsLog:   [2/5] LightSwitch.cpp
-[2018.11.10-03.44.20:733][296]CompilerResultsLog:   [3/5] LightSwitch.gen.cpp
-[2018.11.10-03.44.20:733][296]CompilerResultsLog:   [4/5] UE4Editor-TheNegatyw-2904.lib
-[2018.11.10-03.44.20:733][296]CompilerResultsLog:      Creating library C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-2904.lib and object C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-2904.exp
-[2018.11.10-03.44.20:733][296]CompilerResultsLog:   [5/5] UE4Editor-TheNegatyw-2904.dll
-[2018.11.10-03.44.20:733][296]CompilerResultsLog:      Creating library C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-2904.suppressed.lib and object C:\Users\KB\Documents\GameJam\The negatyw project\TheNegatyw\Intermediate\Build\Win64\UE4Editor\Development\TheNegatyw\UE4Editor-TheNegatyw-2904.suppressed.exp
-[2018.11.10-03.44.20:734][296]CompilerResultsLog: Total build time: 14,55 seconds (Parallel executor: 1,44 seconds)
-[2018.11.10-03.44.20:734][296]LogMainFrame: MainFrame: Module compiling took 15.416 seconds
-[2018.11.10-03.44.20:793][296]LogClass: Could not find existing class LightSwitch in package /Script/TheNegatyw for HotReload, assuming new class
-[2018.11.10-03.44.20:805][296]LogHotReload: Re-instancing LightSwitch after hot-reload.
-[2018.11.10-03.44.20:921][296]LogContentBrowser: Native class hierarchy updated for 'TheNegatyw' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2018.11.10-03.44.20:924][296]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.11.10-03.44.21:209][296]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2578 classes and 607 folders.
-[2018.11.10-03.44.21:210][296]Display: HotReload took 15.9s.
-[2018.11.10-03.44.30:424][323]LogSavePackage: Moving 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_Auto24B3391474F313DF43A7461BA246A00AB.tmp' to 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
-[2018.11.10-03.44.30:430][323]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.182
-[2018.11.10-03.44.30:430][323]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
-[2018.11.10-03.44.36:070][340]LogSavePackage: Moving 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMapB1EFFE454FA7F1627D7AD1A374BAB0AD.tmp' to 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2018.11.10-03.44.36:222][340]LogSavePackage: Moving 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap_BuiltDataF8B014E141D7B391B4FA70832A0353B9.tmp' to 'C:/Users/KB/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.11.10-03.44.37:705][508]LogSlate: Window 'TheNegatyw - Unreal Editor' being destroyed
-[2018.11.10-03.44.37:706][508]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.10-03.44.37:880][509]Cmd: QUIT_EDITOR
-[2018.11.10-03.44.38:613][509]LogExit: Preparing to exit.
-[2018.11.10-03.44.39:300][509]LogExit: Editor shut down
-[2018.11.10-03.44.39:300][509]LogExit: Transaction tracking system shut down
-[2018.11.10-03.44.39:778][509]LogExit: Object subsystem successfully closed.
-[2018.11.10-03.44.39:792][509]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.11.10-03.44.39:795][509]LogD3D11RHI: Shutdown
-[2018.11.10-03.44.39:795][509]LogD3D11RHI: CleanupD3DDevice
-[2018.11.10-03.44.39:796][509]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.11.10-03.44.39:805][509]LogModuleManager: Shutting down and abandoning module TheNegatyw (623)
-[2018.11.10-03.44.39:805][509]LogModuleManager: Shutting down and abandoning module BlueprintGraph (620)
-[2018.11.10-03.44.39:805][509]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
-[2018.11.10-03.44.39:805][509]LogModuleManager: Shutting down and abandoning module Voice (614)
-[2018.11.10-03.44.39:805][509]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
-[2018.11.10-03.44.39:805][509]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
-[2018.11.10-03.44.39:805][509]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module BspMode (584)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
-[2018.11.10-03.44.39:806][509]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module SessionServices (534)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
-[2018.11.10-03.44.39:807][509]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module MergeActors (498)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module XmlParser (486)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module Blutility (484)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
-[2018.11.10-03.44.40:478][509]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
-[2018.11.10-03.44.40:479][509]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
-[2018.11.10-03.44.40:479][509]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
-[2018.11.10-03.44.40:479][509]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
-[2018.11.10-03.44.40:479][509]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
-[2018.11.10-03.44.40:479][509]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
-[2018.11.10-03.44.40:479][509]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
-[2018.11.10-03.44.40:479][509]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
-[2018.11.10-03.44.40:534][509]LogModuleManager: Shutting down and abandoning module AutomationController (464)
-[2018.11.10-03.44.40:534][509]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
-[2018.11.10-03.44.40:534][509]LogModuleManager: Shutting down and abandoning module Layers (460)
-[2018.11.10-03.44.40:534][509]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
-[2018.11.10-03.44.40:534][509]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
-[2018.11.10-03.44.40:534][509]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
-[2018.11.10-03.44.40:534][509]LogModuleManager: Shutting down and abandoning module Persona (452)
-[2018.11.10-03.44.40:534][509]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
-[2018.11.10-03.44.40:534][509]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
-[2018.11.10-03.44.40:534][509]LogModuleManager: Shutting down and abandoning module Kismet (446)
-[2018.11.10-03.44.40:535][509]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
-[2018.11.10-03.44.40:535][509]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module Toolbox (440)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.11.10-03.44.40:536][509]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module OculusInput (392)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module CableComponent (384)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
-[2018.11.10-03.44.40:645][509]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module BackChannel (358)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module AppleVision (356)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
-[2018.11.10-03.44.40:648][509]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module SourceControl (315)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.11.10-03.44.40:649][509]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.11.10-03.44.40:650][509]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.11.10-03.44.40:650][509]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.11.10-03.44.40:650][509]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.11.10-03.44.40:650][509]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.11.10-03.44.40:650][509]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.11.10-03.44.40:650][509]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.11.10-03.44.40:751][509]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.11.10-03.44.40:852][509]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.11.10-03.44.40:853][509]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.11.10-03.44.40:854][509]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.11.10-03.44.40:854][509]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.11.10-03.44.40:854][509]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.11.10-03.44.40:854][509]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.11.10-03.44.40:854][509]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.11.10-03.44.40:854][509]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.11.10-03.44.40:855][509]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.11.10-03.44.40:861][509]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.11.10-03.44.40:862][509]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.11.10-03.44.40:862][509]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.11.10-03.44.40:862][509]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.11.10-03.44.40:862][509]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.11.10-03.44.40:862][509]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.11.10-03.44.40:863][509]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.11.10-03.44.40:865][509]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.11.10-03.44.40:941][509]LogDerivedDataCache: Shutdown
-[2018.11.10-03.44.40:941][509]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.11.10-03.44.40:941][509]LogXGEController: Cleaning working directory: C:/Users/KB/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.11.10-03.44.40:941][509]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.11.10-03.44.40:941][509]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.11.10-03.44.40:942][509]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.11.10-03.44.40:943][509]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.11.10-03.44.40:943][509]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.11.10-03.44.40:943][509]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.11.10-03.44.40:943][509]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.11.10-03.44.40:947][509]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.11.10-03.44.40:947][509]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.11.10-03.44.40:947][509]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.11.10-03.44.40:947][509]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.11.10-03.44.40:947][509]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.11.10-03.44.40:947][509]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.11.10-03.44.40:947][509]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.11.10-03.44.40:947][509]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.11.10-03.44.40:947][509]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.11.10-03.44.40:948][509]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.11.10-03.44.40:957][509]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.11.10-03.44.40:957][509]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.11.10-03.44.40:957][509]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B26DE8EEB-48A0-8D7A-DA46-BFAFC195E0FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=01f368b144e3cd795e795a9fbd7016d1%7C403561f818da4dc4aeded8ad359e3d9c%7Cfa269de3-d1ec-48ef-bf41-feb41cdbbd93&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.11.10-03.44.40:987][509]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.11.10-03.44.40:988][509]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.11.10-03.44.40:988][509]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.11.10-03.44.40:988][509]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.11.10-03.44.40:988][509]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.11.10-03.44.40:988][509]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.11.10-03.44.40:988][509]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.11.10-03.44.40:988][509]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.11.10-03.44.40:988][509]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.11.10-03.44.40:988][509]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.11.10-03.44.40:989][509]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.11.10-03.44.40:989][509]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.11.10-03.44.40:995][509]LogExit: Exiting.
-[2018.11.10-03.44.41:011][509]Log file closed, 11/10/18 04:44:41
+[2018.11.10-12.33.15:048][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.10-12.33.15:049][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.10-12.33.15:068][  0]LogHAL: Display: Platform has ~ 16 GB [17119600640 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.10-12.33.15:069][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.10-12.33.15:069][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.10-12.33.15:071][  0]LogInit: Computer: DESKTOP-822VDRC
+[2018.11.10-12.33.15:071][  0]LogInit: User: Trojan
+[2018.11.10-12.33.15:071][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.10-12.33.15:071][  0]LogInit: High frequency timer resolution =3.903988 MHz
+[2018.11.10-12.33.15:072][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.10-12.33.15:072][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.10-12.33.15:072][  0]LogMemory: Process Physical Memory: 99.59 MB used, 99.59 MB peak
+[2018.11.10-12.33.15:072][  0]LogMemory: Process Virtual Memory: 90.92 MB used, 90.92 MB peak
+[2018.11.10-12.33.15:072][  0]LogMemory: Physical Memory: 4626.72 MB used,  11699.80 MB free, 16326.52 MB total
+[2018.11.10-12.33.15:072][  0]LogMemory: Virtual Memory: 4625.75 MB used,  11699.80 MB free, 134217728.00 MB total
+[2018.11.10-12.33.15:281][  0]LogInit: Using OS detected language (pl-PL).
+[2018.11.10-12.33.15:281][  0]LogInit: Using OS detected locale (pl-PL).
+[2018.11.10-12.33.15:287][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2018.11.10-12.33.15:296][  0]LogStreaming: Display: Took  0.015s to InitEngineTextLocalization.
+[2018.11.10-12.33.15:296][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.10-12.33.15:398][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.10-12.33.15:398][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.10-12.33.16:039][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.10-12.33.16:040][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.10-12.33.16:140][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.11.10-12.33.16:140][  0]LogD3D11RHI:       4053/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.10-12.33.16:144][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.10-12.33.16:144][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.10-12.33.16:144][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.10-12.33.16:155][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.10-12.33.16:156][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.10-12.33.16:156][  0]LogWindows: EnumDisplayDevices:
+[2018.11.10-12.33.16:156][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.11.10-12.33.16:157][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.11.10-12.33.16:158][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.11.10-12.33.16:158][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.11.10-12.33.16:159][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.10-12.33.16:159][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.11.10-12.33.16:159][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2018.11.10-12.33.16:159][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2018.11.10-12.33.16:159][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2018.11.10-12.33.16:231][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.10-12.33.16:272][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.10-12.33.16:326][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Intermediate/Shaders/WorkingDirectory/6272/).
+[2018.11.10-12.33.16:326][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Trojan/AppData/Local/Temp/UnrealShaderWorkingDir/A87E2DC346DECE71A9987BB394B3F400/'.
+[2018.11.10-12.33.16:891][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.10-12.33.16:919][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.10-12.33.16:948][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.10-12.33.16:978][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.10-12.33.17:012][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.10-12.33.17:041][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.10-12.33.17:069][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.10-12.33.17:096][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.10-12.33.17:113][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:240][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.10-12.33.17:245][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.10-12.33.17:335][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.10-12.33.17:335][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.10-12.33.17:372][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.10-12.33.17:372][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.10-12.33.17:394][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.10-12.33.17:414][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.10-12.33.17:436][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.10-12.33.17:463][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.10-12.33.17:482][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.10-12.33.17:482][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.10-12.33.17:771][  0]LogXGEController: Cleaning working directory: C:/Users/Trojan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.10-12.33.17:771][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.10-12.33.17:772][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.10-12.33.17:772][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.10-12.33.19:062][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.10-12.33.19:352][  0]LogDerivedDataCache: Loaded boot cache 0.29s 73MB C:/Users/Trojan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.10-12.33.19:355][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Trojan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.10-12.33.19:355][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.10-12.33.19:355][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.10-12.33.19:355][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.10-12.33.19:355][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.10-12.33.19:376][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.10-12.33.19:389][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Trojan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.10-12.33.19:389][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.10-12.33.19:389][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.10-12.33.19:417][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.10-12.33.19:423][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.10-12.33.19:425][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.10-12.33.19:603][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2018.11.10-12.33.20:237][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.10-12.33.20:595][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.10-12.33.20:622][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.10-12.33.20:622][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.10-12.33.20:623][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.10-12.33.20:623][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.10-12.33.20:668][  0]LogNetVersion: TheNegatyw 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1847545228)
+[2018.11.10-12.33.21:649][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.185974 seconds
+[2018.11.10-12.33.21:657][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.10-12.33.21:657][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.10-12.33.21:657][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.10-12.33.24:068][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.10-12.33.24:088][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.10-12.33.24:681][  0]SourceControl: Source control is disabled
+[2018.11.10-12.33.24:681][  0]SourceControl: Source control is disabled
+[2018.11.10-12.33.24:694][  0]SourceControl: Source control is disabled
+[2018.11.10-12.33.24:703][  0]SourceControl: Source control is disabled
+[2018.11.10-12.33.25:086][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.10-12.33.25:265][  0]LogOcInput: OculusInput pre-init called
+[2018.11.10-12.33.25:386][  0]LogEngine: Initializing Engine...
+[2018.11.10-12.33.25:388][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.10-12.33.25:391][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.10-12.33.25:391][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.10-12.33.25:391][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.10-12.33.25:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.10-12.33.25:682][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.10-12.33.25:737][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.10-12.33.25:786][  0]LogInit: XAudio2 using 'Headset (Sound Blaster Tactic3D Fury)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.10-12.33.25:846][  0]LogInit: FAudioDevice initialized.
+[2018.11.10-12.33.25:846][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.10-12.33.25:981][  0]LogDerivedDataCache: Saved boot cache 0.14s 73MB C:/Users/Trojan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.10-12.33.26:030][  0]LogInit: Texture streaming: Enabled
+[2018.11.10-12.33.26:083][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.10-12.33.26:112][  0]LogInit: Transaction tracking system initialized
+[2018.11.10-12.33.26:214][  0]BlueprintLog: New page: Editor Load
+[2018.11.10-12.33.26:605][  0]LocalizationService: Localization service is disabled
+[2018.11.10-12.33.27:155][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.10-12.33.27:155][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.10-12.33.27:156][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.10-12.33.27:156][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.10-12.33.27:156][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.10-12.33.27:156][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.10-12.33.27:156][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.10-12.33.27:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/' took 0.04s
+[2018.11.10-12.33.27:633][  0]SourceControl: Source control is disabled
+[2018.11.10-12.33.27:634][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.10-12.33.27:635][  0]LightingResults: New page: Lighting Build
+[2018.11.10-12.33.27:653][  0]MapCheck: New page: Map Check
+[2018.11.10-12.33.27:653][  0]LightingResults: New page: Lighting Build
+[2018.11.10-12.33.27:829][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.11.10-12.33.27:830][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
+[2018.11.10-12.33.27:830][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData
+[2018.11.10-12.33.27:866][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.11.10-12.33.27:866][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
+[2018.11.10-12.33.27:866][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData
+[2018.11.10-12.33.27:872][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.11.10-12.33.27:872][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.11.10-12.33.27:872][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.11.10-12.33.27:872][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.11.10-12.33.27:899][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.11.10-12.33.27:899][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.11.10-12.33.27:899][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.11.10-12.33.27:899][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.11.10-12.33.28:032][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.10-12.33.28:069][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.10-12.33.28:108][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.10-12.33.28:314][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 205,859ms to complete.
+[2018.11.10-12.33.28:314][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.681
+[2018.11.10-12.33.28:504][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-12.33.28:516][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-12.33.28:527][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-12.33.28:538][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.10-12.33.28:572][  0]LogCollectionManager: Loaded 0 collections in 0.007544 seconds
+[2018.11.10-12.33.28:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Collections/' took 0.01s
+[2018.11.10-12.33.28:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Developers/Trojan/Collections/' took 0.01s
+[2018.11.10-12.33.28:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Collections/' took 0.01s
+[2018.11.10-12.33.28:638][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.10-12.33.28:656][  0]LogContentBrowser: Native class hierarchy populated in 0.0173 seconds. Added 2577 classes and 605 folders.
+[2018.11.10-12.33.28:680][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.11.10-12.33.28:912][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.11.10-12.33.28:932][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.10-12.33.28:983][  0]LogSlate: Took 0.001405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.10-12.33.28:988][  0]LogSlate: Took 0.001282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.10-12.33.28:998][  0]LogSlate: Took 0.001338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.10-12.33.29:128][  0]LogRenderer: Reallocating scene render targets to support 1616x576 Format 10 NumSamples 1 (Frame:1).
+[2018.11.10-12.33.29:333][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.11.10-12.33.29:333][  0]LogLoad: (Engine Initialization) Total time: 21.17 seconds
+[2018.11.10-12.33.29:333][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.10-12.33.29:344][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.10-12.33.29:368][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.10-12.33.29:374][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.10-12.33.29:414][  0]LogSlate: Took 0.001408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.10-12.33.29:445][  1]LogAssetRegistry: Asset discovery search completed in 9.8644 seconds
+[2018.11.10-12.33.29:448][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.10-12.33.29:448][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2018.11.10-12.33.38:643][ 79]LogSlate: Window 'Message Log' being destroyed
+[2018.11.10-12.33.38:668][ 79]LogSlate: Window 'Message Log' being destroyed
+[2018.11.10-12.33.41:170][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-12.34.23:711][775]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.10-12.34.23:723][775]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\FBX\wentylacja POP.FBX)
+[2018.11.10-12.34.23:757][775]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\FBX\wentylacja POP.FBX
+[2018.11.10-12.34.23:769][775]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-12.34.34:093][775]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-12.34.34:487][775]LogLinker: Can't find file '/Game/Meshe/photos_2015_09_18_fst_245bw3x3zvp'
+[2018.11.10-12.34.34:487][775]LogLinker: Can't find file '/Game/Meshe/photos_2015_09_18_fst_245bw3x3zvp'
+[2018.11.10-12.34.35:057][775]LogTexture: Display: Building textures: photos_2015_09_18_fst_245bw3x3zvp (AutoDXT, 4752X3168)
+[2018.11.10-12.34.51:429][775]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.11.10-12.34.51:599][775]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.10-12.34.51:599][775]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.10-12.34.51:599][775]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-12.34.51:643][775]LogStaticMesh: Building static mesh wentylacja_POP...
+[2018.11.10-12.34.51:708][775]LogStaticMesh: Built static mesh [0.07s] /Game/Meshe/wentylacja_POP.wentylacja_POP
+[2018.11.10-12.34.51:724][775]LogStaticMesh: Warning: wentylacja_POP has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.11.10-12.34.51:724][775]LogStaticMesh: Warning: wentylacja_POP has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.11.10-12.34.51:750][775]FBXImport: Warning: wentylacja_POP has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.11.10-12.34.51:750][775]FBXImport: Warning: wentylacja_POP has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.11.10-12.35.02:060][708]LogSlate: Window 'Message Log' being destroyed
+[2018.11.10-12.35.02:065][708]LogSlate: Window 'Message Log' being destroyed
+[2018.11.10-12.35.07:416][194]LogActorFactory: Actor Factory created wentylacja_POP
+[2018.11.10-12.35.08:142][263]LogActorFactory: Actor Factory created wentylacja_POP
+[2018.11.10-12.35.30:798][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-12.35.43:586][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Wentylacja_T" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Wentylacja_T.uasset" SILENT=true
+[2018.11.10-12.35.46:630][597]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Wentylacja_TDE6A4CB44F6C1A77C7A21196CF7AA7BB.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Wentylacja_T.uasset'
+[2018.11.10-12.35.55:028][298]LogMetaData: Removing '/Game/Meshe/Wentylacja_M.Wentylacja_M' ref from Metadata '/Game/Meshe/wentylacja_POP.PackageMetaData'
+[2018.11.10-12.35.55:064][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Wentylacja_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Wentylacja_M.uasset" SILENT=true
+[2018.11.10-12.35.55:094][298]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Wentylacja_MEFD8D08D47C539D62DF12DB6E31D52E2.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Wentylacja_M.uasset'
+[2018.11.10-12.36.19:012][272]LogMetaData: Removing '/Game/Meshe/Wentylacja.Wentylacja' ref from Metadata '/Game/Meshe/Wentylacja_M.PackageMetaData'
+[2018.11.10-12.36.19:042][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Wentylacja" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Wentylacja.uasset" SILENT=true
+[2018.11.10-12.36.19:064][272]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Wentylacja7968E3544F4C4872FD677CA27953DFCD.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Wentylacja.uasset'
+[2018.11.10-12.36.25:801][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Wentylacja_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Wentylacja_M.uasset" SILENT=true
+[2018.11.10-12.36.25:822][954]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Wentylacja_MEA62986546726F70357C4EB3B83487AC.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Wentylacja_M.uasset'
+[2018.11.10-12.36.26:009][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Wentylacja" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Wentylacja.uasset" SILENT=true
+[2018.11.10-12.36.26:025][954]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/WentylacjaD2EFBF1B4A16C6124CE239A4CFC05BEF.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Wentylacja.uasset'
+[2018.11.10-12.36.32:183][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wentylacja_POP)
+[2018.11.10-12.36.32:607][572]Cmd: DELETE
+[2018.11.10-12.36.32:608][572]Cmd: ACTOR DELETE
+[2018.11.10-12.36.32:615][572]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-12.36.32:663][572]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2018.11.10-12.36.49:379][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-12.36.57:429][192]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\FBX\stol POP.FBX)
+[2018.11.10-12.36.57:453][192]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\FBX\stol POP.FBX
+[2018.11.10-12.36.57:468][192]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-12.37.00:863][192]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-12.37.00:924][192]LogLinker: Can't find file '/Game/Meshe/STOL_texture'
+[2018.11.10-12.37.00:925][192]LogLinker: Can't find file '/Game/Meshe/STOL_texture'
+[2018.11.10-12.37.01:009][192]LogTexture: Display: Building textures: STOL_texture (AutoDXT, 1024X1024)
+[2018.11.10-12.37.01:918][192]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.11.10-12.37.01:953][192]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.10-12.37.01:953][192]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.10-12.37.01:953][192]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.10-12.37.01:960][192]LogStaticMesh: Building static mesh stol_POP...
+[2018.11.10-12.37.01:989][192]LogStaticMesh: Built static mesh [0.03s] /Game/Meshe/stol_POP.stol_POP
+[2018.11.10-12.37.12:189][884]LogMetaData: Removing '/Game/Meshe/Stol.Stol' ref from Metadata '/Game/Meshe/stol_POP.PackageMetaData'
+[2018.11.10-12.37.12:225][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Stol" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Stol.uasset" SILENT=true
+[2018.11.10-12.37.12:243][884]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/StolAB8AA2B143EAF1E01DAAA2B2C37017CA.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Stol.uasset'
+[2018.11.10-12.37.26:474][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Stol_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Stol_M.uasset" SILENT=true
+[2018.11.10-12.37.26:492][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Stol_M0E7D94A448F20489CF8CCDBEE1E3CDB2.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Stol_M.uasset'
+[2018.11.10-12.37.26:671][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Stol" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Stol.uasset" SILENT=true
+[2018.11.10-12.37.26:687][ 97]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Stol539A1A7348A96EC1E1CDFC9E812B0A2D.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Stol.uasset'
+[2018.11.10-12.37.31:760][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Stol_T" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Stol_T.uasset" SILENT=true
+[2018.11.10-12.37.31:958][633]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Stol_T3DBF82584F1FDD253574EFB40B1B2706.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Stol_T.uasset'
+[2018.11.10-12.37.32:147][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/Stol_M" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Stol_M.uasset" SILENT=true
+[2018.11.10-12.37.32:160][633]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/Stol_M34F26A0846E0A1077D5BF48CC97FE7E4.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/Stol_M.uasset'
+[2018.11.10-12.37.33:799][785]LogActorFactory: Actor Factory created Stol
+[2018.11.10-12.37.34:167][818]LogActorFactory: Actor Factory created Stol
+[2018.11.10-12.37.37:406][155]Cmd: DELETE
+[2018.11.10-12.37.37:406][155]Cmd: ACTOR DELETE
+[2018.11.10-12.37.37:409][155]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-12.37.37:443][155]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.11.10-12.37.37:995][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-12.37.48:334][409]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Trojan\Desktop\Modele\FBX\miska.FBX)
+[2018.11.10-12.37.48:345][409]LogFbx: Loading FBX Scene from C:\Users\Trojan\Desktop\Modele\FBX\miska.FBX
+[2018.11.10-12.37.48:350][409]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.10-12.37.49:290][409]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.10-12.37.49:309][409]LogStaticMesh: Building static mesh miska...
+[2018.11.10-12.37.49:315][409]LogStaticMesh: Built static mesh [0.01s] /Game/Meshe/miska.miska
+[2018.11.10-12.37.57:567][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshe/miska" FILE="../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/miska.uasset" SILENT=true
+[2018.11.10-12.37.57:588][183]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/miska62C57D4B4A87C0BBF6711CB42DF70D47.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/Meshe/miska.uasset'
+[2018.11.10-12.38.00:367][430]LogActorFactory: Actor Factory created Stol
+[2018.11.10-12.38.00:654][459]LogActorFactory: Actor Factory created Stol
+[2018.11.10-12.38.01:336][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-12.38.01:702][545]LogActorFactory: Actor Factory created Miska
+[2018.11.10-12.38.03:679][733]LogActorFactory: Actor Factory created Miska
+[2018.11.10-12.38.04:163][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.10-12.38.30:939][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stol)
+[2018.11.10-12.38.31:845][629]Cmd: DELETE
+[2018.11.10-12.38.31:845][629]Cmd: ACTOR DELETE
+[2018.11.10-12.38.31:848][629]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-12.38.31:879][629]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.11.10-12.38.32:299][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Miska)
+[2018.11.10-12.38.32:408][683]Cmd: DELETE
+[2018.11.10-12.38.32:408][683]Cmd: ACTOR DELETE
+[2018.11.10-12.38.32:410][683]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.10-12.38.32:443][683]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.11.10-12.38.40:947][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.10-12.38.59:144][283]LogSavePackage: Moving '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Saved/ThirdPersonExampleMap8D730D4F4ADEA2AD4B978880542E7937.tmp' to '../../../../../../Users/Trojan/Documents/GameJam/The negatyw project/TheNegatyw/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
