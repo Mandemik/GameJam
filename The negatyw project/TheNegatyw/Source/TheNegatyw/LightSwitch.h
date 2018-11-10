@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Components/LightComponent.h"
+#include "Engine/TriggerVolume.h"
 #include "LightSwitch.generated.h"
 
 
@@ -40,6 +41,9 @@ private:
 	float lightIntenisty = 0.f;
 
 	ULightComponent *lightCompnent = nullptr;
+
+	UPROPERTY(EditAnywhere)
+		ATriggerVolume *damageZone = nullptr;
 
 	float timeFromLastSwitch = 0.f;
 

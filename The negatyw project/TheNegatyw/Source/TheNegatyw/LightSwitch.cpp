@@ -35,15 +35,21 @@ void ULightSwitch::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 
 	if (!isOn && GetWorld()->GetTimeSeconds() > timeFromLastSwitch + timeLightOf)
 	{
-		isOn = true;
-		lightCompnent->SetIntensity(lightIntenisty);
-		timeFromLastSwitch = GetWorld()->GetTimeSeconds();
+		if (GetWorld()->GetTimeSeconds() > timeFromLastSwitch + timeLightOf)
+		{
+			isOn = true;
+			lightCompnent->SetIntensity(lightIntenisty);
+			timeFromLastSwitch = GetWorld()->GetTimeSeconds();
+		}
 	}
-	else if (isOn &&GetWorld()->GetTimeSeconds() > timeLightOn + timeFromLastSwitch)
+	else if (isOn)
 	{
-		isOn = false;
-		lightCompnent->SetIntensity(0.f);
-		timeFromLastSwitch = GetWorld()->GetTimeSeconds();
+		if (GetWorld()->GetTimeSeconds() > timeLightOn + timeFromLastSwitch)
+		{
+			isOn = false;
+			lightCompnent->SetIntensity(0.f);
+			timeFromLastSwitch = GetWorld()->GetTimeSeconds();
+		}
 	}
 	
 }

@@ -22,7 +22,7 @@ void UPickableComponent::BeginPlay()
 {
 	Super::BeginPlay();
 	player = GetWorld()->GetFirstPlayerController()->GetPawn();
-
+	inventory = player->FindComponentByClass<UPlayerInventory>();
 	// ...
 	
 }
@@ -35,6 +35,7 @@ void UPickableComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 
 	if (pickUpZone->IsOverlappingActor(player))
 	{
+		inventory->GrabObject();
 		pickUpZone->Destroy();
 		GetOwner()->Destroy();
 		UE_LOG(LogTemp, Error, TEXT("Wlazles W trigger"));

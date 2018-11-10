@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeLightSwitch() {}
 	THENEGATYW_API UClass* Z_Construct_UClass_ULightSwitch();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_TheNegatyw();
+	ENGINE_API UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 // End Cross Module References
 	void ULightSwitch::StaticRegisterNativesULightSwitch()
 	{
@@ -31,6 +32,10 @@ void EmptyLinkFunctionForGeneratedCodeLightSwitch() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_damageZone_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_damageZone;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_lightIntenisty_MetaData[];
 #endif
@@ -65,6 +70,13 @@ void EmptyLinkFunctionForGeneratedCodeLightSwitch() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULightSwitch_Statics::NewProp_damageZone_MetaData[] = {
+		{ "Category", "LightSwitch" },
+		{ "ModuleRelativePath", "LightSwitch.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ULightSwitch_Statics::NewProp_damageZone = { UE4CodeGen_Private::EPropertyClass::Object, "damageZone", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ULightSwitch, damageZone), Z_Construct_UClass_ATriggerVolume_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ULightSwitch_Statics::NewProp_damageZone_MetaData, ARRAY_COUNT(Z_Construct_UClass_ULightSwitch_Statics::NewProp_damageZone_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULightSwitch_Statics::NewProp_lightIntenisty_MetaData[] = {
 		{ "Category", "LightSwitch" },
 		{ "ModuleRelativePath", "LightSwitch.h" },
@@ -97,6 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeLightSwitch() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ULightSwitch_Statics::NewProp_isOn = { UE4CodeGen_Private::EPropertyClass::Bool, "isOn", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ULightSwitch), &Z_Construct_UClass_ULightSwitch_Statics::NewProp_isOn_SetBit, METADATA_PARAMS(Z_Construct_UClass_ULightSwitch_Statics::NewProp_isOn_MetaData, ARRAY_COUNT(Z_Construct_UClass_ULightSwitch_Statics::NewProp_isOn_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ULightSwitch_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULightSwitch_Statics::NewProp_damageZone,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULightSwitch_Statics::NewProp_lightIntenisty,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULightSwitch_Statics::NewProp_timeLightOf,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULightSwitch_Statics::NewProp_timeLightOn,
@@ -125,7 +138,7 @@ void EmptyLinkFunctionForGeneratedCodeLightSwitch() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ULightSwitch, 467228185);
+	IMPLEMENT_CLASS(ULightSwitch, 614809833);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ULightSwitch(Z_Construct_UClass_ULightSwitch, &ULightSwitch::StaticClass, TEXT("/Script/TheNegatyw"), TEXT("ULightSwitch"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ULightSwitch);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
