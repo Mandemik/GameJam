@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePickableComponent() {}
 	THENEGATYW_API UClass* Z_Construct_UClass_UPickableComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_TheNegatyw();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 // End Cross Module References
 	void UPickableComponent::StaticRegisterNativesUPickableComponent()
@@ -32,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodePickableComponent() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_player_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_player;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_pickUpZone_MetaData[];
 #endif
@@ -53,6 +58,13 @@ void EmptyLinkFunctionForGeneratedCodePickableComponent() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPickableComponent_Statics::NewProp_player_MetaData[] = {
+		{ "Category", "PickableComponent" },
+		{ "ModuleRelativePath", "PickableComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPickableComponent_Statics::NewProp_player = { UE4CodeGen_Private::EPropertyClass::Object, "player", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UPickableComponent, player), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPickableComponent_Statics::NewProp_player_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPickableComponent_Statics::NewProp_player_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPickableComponent_Statics::NewProp_pickUpZone_MetaData[] = {
 		{ "Category", "PickableComponent" },
 		{ "ModuleRelativePath", "PickableComponent.h" },
@@ -60,6 +72,7 @@ void EmptyLinkFunctionForGeneratedCodePickableComponent() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPickableComponent_Statics::NewProp_pickUpZone = { UE4CodeGen_Private::EPropertyClass::Object, "pickUpZone", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UPickableComponent, pickUpZone), Z_Construct_UClass_ATriggerVolume_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPickableComponent_Statics::NewProp_pickUpZone_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPickableComponent_Statics::NewProp_pickUpZone_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPickableComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPickableComponent_Statics::NewProp_player,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPickableComponent_Statics::NewProp_pickUpZone,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UPickableComponent_Statics::StaticCppClassTypeInfo = {
@@ -85,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodePickableComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPickableComponent, 1395227123);
+	IMPLEMENT_CLASS(UPickableComponent, 644398984);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UPickableComponent(Z_Construct_UClass_UPickableComponent, &UPickableComponent::StaticClass, TEXT("/Script/TheNegatyw"), TEXT("UPickableComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UPickableComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

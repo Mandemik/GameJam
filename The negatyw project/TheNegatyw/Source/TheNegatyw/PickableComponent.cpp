@@ -1,6 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PickableComponent.h"
+#include "Engine/World.h"
+#include "GameFramework/Controller.h"
+
 
 
 // Sets default values for this component's properties
@@ -18,6 +21,7 @@ UPickableComponent::UPickableComponent()
 void UPickableComponent::BeginPlay()
 {
 	Super::BeginPlay();
+	player = GetWorld()->GetFirstPlayerController()->GetPawn();
 
 	// ...
 	
@@ -28,6 +32,13 @@ void UPickableComponent::BeginPlay()
 void UPickableComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	if (pickUpZone->IsOverlappingActor(player))
+	{
+		pickUpZone->Destroy();
+		GetOwner()->Destroy();
+		UE_LOG(LogTemp, Error, TEXT("Wlazles W trigger"));
+	}
 
 	// ...
 }
