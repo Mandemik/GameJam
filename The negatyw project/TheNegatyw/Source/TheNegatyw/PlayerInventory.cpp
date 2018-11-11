@@ -29,6 +29,7 @@ void UPlayerInventory::BeginPlay()
 	Super::BeginPlay();
 
 	player = GetWorld()->GetFirstPlayerController()->GetPawn();
+	movment = player->FindComponentByClass<UPawnMovementComponent>();
 
 	if (audio == nullptr)
 	{
@@ -41,8 +42,13 @@ void UPlayerInventory::BeginPlay()
 
 void UPlayerInventory::GrabObject()
 {
-	clipHP = 100.f;
-	GrabbingObject = true;
+	if (!GrabbingObject)
+	{
+		clipHP = 100.f;
+		GrabbingObject = true;
+		audio->SetSound(pickUpClip);
+		audio->Play();
+	}
 }
 
 void UPlayerInventory::DropObject()
@@ -50,6 +56,8 @@ void UPlayerInventory::DropObject()
 	if (GrabbingObject)
 	{
 		GrabbingObject = false;
+		audio->SetSound(GameVinClip);
+		audio->Play();
 		UE_LOG(LogTemp, Error, TEXT("Upusciles tasme"));
 	}
 }
@@ -58,14 +66,25 @@ void UPlayerInventory::TakeDamage(float dmg)
 {
 	if (GrabbingObject && clipHP > 0.f)
 	{
-		audio->SetSound(damageClip);
-		if (!audio->IsPlaying())
+		if (audio->IsPlaying() == false)
 		{
+			audio->SetSound(damageClip);
 			audio->Play();
+			UE_LOG(LogTemp, Error, TEXT("PlayDamage"));
 		}
 		clipHP -= dmg;
 		FString clipHPString = FString::SanitizeFloat(clipHP);
 		UE_LOG(LogTemp, Error, TEXT("Dostales w pierdol, zostalo ci  %s zycia"), *clipHPString);
+	}
+	else if(GrabbingObject && clipHP < 0.f)
+	{
+		if (playerLive)
+		{
+			playerLive = false;
+			movment->DestroyComponent();
+			audio->SetSound(GameOverClip);
+			audio->Play();
+		}
 	}
 }
 

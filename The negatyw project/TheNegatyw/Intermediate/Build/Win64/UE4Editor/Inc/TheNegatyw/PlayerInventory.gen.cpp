@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerInventory() {}
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAudioComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UPawnMovementComponent_NoRegister();
 // End Cross Module References
 	void UPlayerInventory::StaticRegisterNativesUPlayerInventory()
 	{
@@ -44,6 +45,18 @@ void EmptyLinkFunctionForGeneratedCodePlayerInventory() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_clipHP;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameVinClip_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GameVinClip;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameOverClip_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GameOverClip;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_pickUpClip_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_pickUpClip;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_damageClip_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_damageClip;
@@ -55,6 +68,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerInventory() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_player_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_player;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_movment_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_movment;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -90,6 +107,27 @@ void EmptyLinkFunctionForGeneratedCodePlayerInventory() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UPlayerInventory_Statics::NewProp_clipHP = { UE4CodeGen_Private::EPropertyClass::Float, "clipHP", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UPlayerInventory, clipHP), METADATA_PARAMS(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_clipHP_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_clipHP_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GameVinClip_MetaData[] = {
+		{ "Category", "PlayerInventory" },
+		{ "ModuleRelativePath", "PlayerInventory.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GameVinClip = { UE4CodeGen_Private::EPropertyClass::Object, "GameVinClip", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UPlayerInventory, GameVinClip), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GameVinClip_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GameVinClip_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GameOverClip_MetaData[] = {
+		{ "Category", "PlayerInventory" },
+		{ "ModuleRelativePath", "PlayerInventory.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GameOverClip = { UE4CodeGen_Private::EPropertyClass::Object, "GameOverClip", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UPlayerInventory, GameOverClip), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GameOverClip_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GameOverClip_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerInventory_Statics::NewProp_pickUpClip_MetaData[] = {
+		{ "Category", "PlayerInventory" },
+		{ "ModuleRelativePath", "PlayerInventory.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerInventory_Statics::NewProp_pickUpClip = { UE4CodeGen_Private::EPropertyClass::Object, "pickUpClip", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UPlayerInventory, pickUpClip), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_pickUpClip_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_pickUpClip_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerInventory_Statics::NewProp_damageClip_MetaData[] = {
 		{ "Category", "PlayerInventory" },
 		{ "ModuleRelativePath", "PlayerInventory.h" },
@@ -111,12 +149,24 @@ void EmptyLinkFunctionForGeneratedCodePlayerInventory() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerInventory_Statics::NewProp_player = { UE4CodeGen_Private::EPropertyClass::Object, "player", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UPlayerInventory, player), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_player_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_player_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerInventory_Statics::NewProp_movment_MetaData[] = {
+		{ "Category", "PlayerInventory" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "PlayerInventory.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerInventory_Statics::NewProp_movment = { UE4CodeGen_Private::EPropertyClass::Object, "movment", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080009, 1, nullptr, STRUCT_OFFSET(UPlayerInventory, movment), Z_Construct_UClass_UPawnMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_movment_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerInventory_Statics::NewProp_movment_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerInventory_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GrabbingObject,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerInventory_Statics::NewProp_clipHP,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GameVinClip,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerInventory_Statics::NewProp_GameOverClip,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerInventory_Statics::NewProp_pickUpClip,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerInventory_Statics::NewProp_damageClip,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerInventory_Statics::NewProp_audio,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerInventory_Statics::NewProp_player,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerInventory_Statics::NewProp_movment,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UPlayerInventory_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UPlayerInventory>::IsAbstract,
@@ -141,7 +191,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerInventory() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerInventory, 1454498575);
+	IMPLEMENT_CLASS(UPlayerInventory, 2737916777);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UPlayerInventory(Z_Construct_UClass_UPlayerInventory, &UPlayerInventory::StaticClass, TEXT("/Script/TheNegatyw"), TEXT("UPlayerInventory"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UPlayerInventory);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

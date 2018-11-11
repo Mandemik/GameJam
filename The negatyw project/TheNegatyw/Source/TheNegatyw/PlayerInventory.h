@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"	
 #include "Components/ActorComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "Components/AudioComponent.h"
 #include "PlayerInventory.generated.h"
 
@@ -23,6 +24,8 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
+	UPROPERTY(EditAnywhere)
+		UPawnMovementComponent *movment = nullptr;
 
 	UPROPERTY(EditAnywhere)
 		AActor * player = nullptr;
@@ -34,7 +37,18 @@ public:
 		USoundBase *damageClip = nullptr;
 
 	UPROPERTY(EditAnywhere)
+		USoundBase *pickUpClip = nullptr;
+
+	UPROPERTY(EditAnywhere)
+		USoundBase *GameOverClip = nullptr;
+
+	UPROPERTY(EditAnywhere)
+		USoundBase *GameVinClip = nullptr;
+
+
+	UPROPERTY(EditAnywhere)
 		float clipHP = 100.f;
+
 
 	void GrabObject();
 
@@ -48,4 +62,6 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		bool GrabbingObject = false;
+
+	bool playerLive = true;
 };
